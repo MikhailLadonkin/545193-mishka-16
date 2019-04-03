@@ -5,8 +5,83 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img class="page-header__logo-image" src="img/logo.svg" width="" height="" alt="Магазин Мишка">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item"><a href="#">Каталог товаров</a></li>
+            <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+            <li class="site-list__item"><a href="#">Поиск по сайту</a></li>
+            <li class="site-list__item"><a href="#">Корзина: пока пуста</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="page-main__header">Милые штуки ручной работы для дома</h1>
+      <section class="options">
+        <h2 class="visually-hidden">В чем Вы заинтересованы?</h2>
+        <p class="options__interior">Предметы интерьера</p>
+        <p class="options__toys">Детские игрушки</p>
+      </section>
+      <section class="knitting">
+        <h2 class="knitting__header">Вязаные корзинки</h2>
+        <h3 class="knitting__subheader">ТОВАР НЕДЕЛИ</h3>
+        <p class="knitting__info">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <table class="knitting__table">
+          <tr>
+            <td class="knitting__table--parameter">Цвет:</td>
+            <td class="knitting__table--details">«Тиффани»/серый</td>
+          </tr>
+          <tr>
+            <td class="knitting__table--parameter">Диаметр:</td>
+            <td class="knitting__table--details">25 см</td>
+          </tr>
+          <tr>
+            <td class="knitting__table--parameter">Высота</td>
+            <td class="knitting__table--details">15 см</td>
+          </tr>
+        </table>
+        <a class="knitting__picture-link" href="#">
+        <img class="knitting__picture" src="img/knitting.svg" width="" height="" alt="Вязаные вещи">
+        </a>
+        <p class="knitting__price">Цена: 990руб.</p>
+        <button class="knitting__button" type="button">Заказать</button>
+      </section>
+      <section class="about-us">
+        <h2 class="about-us__title">Коротко о нас:</h2>
+        <div class="advantages-wrapper">
+          <p class="about-us__advantage">Экологически чистые материалы</p>
+          <p class="about-us__advantage">Скандинавский стиль по российской цене</p>
+          <p class="about-us__advantage">Увеличивает лайки на фотографиях</p>
+          <p class="about-us__advantage">Связано вручную с любовью и умилением</p>
+          <p class="about-us__advantage">Поддержка отечественного производителя</p>
+          <p class="about-us__advantage">Поставляется в подарочной упаковке</p>
+        </div>
+      </section>
+      <!-- REVIEWS -->
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <!-- REVIEWS -->
+      <!-- MAP -->
 
+      <!-- MAP -->
+    </main>
+    <footer class="page-footer">
+      <ul class="social-links">
+        <li class="social-item"><a class="social-link social-link-instagram" href="#">Мы в Инстаграме</a></li>
+        <li class="social-item"><a class="social-link social-link-facebook" href="#">Мы в Фейсбуке</a></li>
+        <li class="social-item"><a class="social-link social-link-twitter" href="#">Мы в Твиттере</a></li>
+      </ul>
+      <div class="developer">
+        <p class="developer__text">Разработано</p>
+        <a class="developer__logo" href="#">
+        <img class="developer__logo-image" src="img/dev-logo.svg" width="" height="" alt="HTML Academy">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
