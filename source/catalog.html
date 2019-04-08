@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог товаров</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img class="page-header__logo-image" src="img/logo.svg" width="" height="" alt="Магазин Мишка">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item"><a class="site-list__link" href="#">Каталог товаров</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Вязание на заказ</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Поиск по сайту</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Корзина: пока пуста</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="catalog-main">
+      <div class="catalog-container">
+        <section class="catalog-intro">
+          <h1 class="catalog-intro__title">Каталог товаров</h1>
+        </section>
+        <ul class="catalog-items">
+          <li class="catalog-item first-card">
+            <div class="catalog-item__image">
+              <a class="first-card__link" href="#">
+                <img class="first-card__image" src="img/rabbit.jpg" width="" height="" alt="Зайчик-попрыгайчик">
+              </a>
+            </div>
+            <div class="catalog-item__info">
+              <h3 class="first-card__title">Зайчик-попрыгайчик</h3>
+              <p class="first-card__details">Рост 30 см, вес 200 г</p>
+              <p class="first-card__price">1 200 руб.</p>
+            </div>
+            <div class="catalog-item__action">
+              <button class="catalog-item__button" type="button" aria-label="Добавить в корзину"></button>
+            </div>
+          </li>
+          <li class="catalog-item second-card">
+            <div class="catalog-item__image">
+              <a class="second-card__link" href="#">
+                <img class="second-card__image" src="img/basket-linen.jpg" width="" height="" alt="Корзинка для белья">
+              </a>
+            </div>
+            <div class="catalog-item__info">
+              <h3 class="second-card__title">Корзинка для белья</h3>
+              <p class="second-card__details">Диаметр 15 см, высота 10 см</p>
+              <p class="second-card__price">690 руб.</p>
+            </div>
+            <div class="catalog-item__action">
+              <button class="catalog-item__button" type="button" aria-label="Добавить в корзину"></button>
+            </div>
+          </li>
+          <li class="catalog-item third-card">
+            <div class="catalog-item__image">
+              <a class="third-card__link" href="#">
+                <img class="third-card__image" src="img/basket-toys.jpg" width="" height="" alt="Большая корзинка для игрушек">
+              </a>
+            </div>
+            <div class="catalog-item__info">
+              <h3 class="third-card__title">Большая корзинка для игрушек</h3>
+              <p class="third-card__details">Диаметр 30 см, высота 30 см</p>
+              <p class="third-card__price">1 500 руб.</p>
+            </div>
+            <div class="catalog-item__action">
+              <button class="catalog-item__button" type="button" aria-label="Добавить в корзину"></button>
+            </div>
+          </li>
+        </ul>
+        <form class="modal" name="modal-form" method="post" action="https://echo.htmlacademy.ru">
+          <h2 class="modal__header">ДОБАВИТЬ В КОРЗИНУ</h2>
+          <p class="modal__subheader">Выберите размер:</p>
+          <input class="modal__size" name="modal-size" type="button">S
+          <input class="modal__size" name="modal-size" type="button">M
+          <input class="modal__size" name="modal-size" type="button">L
+          <button class="modal__submit" type="button">ДОБАВИТЬ</button>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <ul class="page-footer__social social">
+        <li class="social__item"><a class="social__link" href="#">Мы в Инстаграме</a></li>
+        <li class="social__item"><a class="social__link" href="#">Мы в Фейсбуке</a></li>
+        <li class="social__item"><a class="social__link" href="#">Мы в Твиттере</a></li>
+      </ul>
+      <div class="developer">
+        <p class="developer__text">Разработано</p>
+        <a class="developer__logo" href="#">
+          <img class="developer__logo-image" src="img/dev-logo.svg" width="" height="" alt="HTML Academy">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
