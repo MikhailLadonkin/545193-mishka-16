@@ -1,7 +1,8 @@
-.page-footer{
+.page-footer {
   background-color: #f1f1f1;
 }
-.page-footer__social{
+
+.page-footer__social {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -11,22 +12,26 @@
 
   list-style: none;
 }
+
 .social__item:first-child{
   padding-left: 87px;
 }
+
 .social__item:nth-child(2),
-.social__item:nth-child(3n){
+.social__item:nth-child(3n) {
   padding-left: 41px;
   padding-bottom: 58px;
 }
-.developer{
+
+.developer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding-bottom: 23px;
 }
-.developer__text{
+
+.developer__text {
   padding-left: 70px;
   padding-right: 30px;
 

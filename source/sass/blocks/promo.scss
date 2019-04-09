@@ -1,20 +1,23 @@
-.promo__info{
+.promo__info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 34px 42px 8px 32px;
 }
+
 .promo h1,
 .promo h2,
-.promo p{
+.promo p {
   margin: 0;
 }
-.promo__header{
+
+.promo__header {
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
 }
-.promo__subheader{
+
+.promo__subheader {
   padding-bottom: 30px;
 
   text-transform: uppercase;
@@ -23,7 +26,8 @@
   line-height: 20px;
   color: #63d1bb;
 }
-.promo__details{
+
+.promo__details {
   padding-bottom: 34px;
 
   font-weight: normal;
@@ -31,32 +35,38 @@
   line-height: 24px;
   color: #444444;
 }
-.promo__table{
-  padding: 0px 30px 28px 30px;
+
+.promo__table {
+  padding: 1px 30px 28px 30px;
 
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
   color: #444444;
 }
-.promo__feature{
+
+.promo__feature {
   padding-right: 30px;
 }
-.promo__table td{
+
+.promo__table td {
   padding-top: 8px;
   padding-bottom: 8px;
 
   border-bottom: 1px solid grey;
 }
-.promo__value{
+
+.promo__value {
   padding-right: 33px;
 }
-.promo__picture{
+
+.promo__picture {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 29px;
 }
-.promo__price{
+
+.promo__price {
   padding-bottom: 28px;
 
   font-size: 17px;
@@ -65,7 +75,8 @@
   font-weight: bold;
   color: #444444;
 }
-.promo__button{
+
+.promo__button {
   padding: 20px 85px;
 
   font-size: 17px;
