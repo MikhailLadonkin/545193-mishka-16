@@ -1,0 +1,14 @@
+.page-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-nav__wrapper{
+  display: none;
+}
+.page-header__logo{
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 116px;
+  padding-right: 67px;
+}
