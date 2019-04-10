@@ -24,12 +24,14 @@
   color: #ffffff;
 }
 
-.intro__interior-link {
+.intro__link--interior {
   padding: 30px 185px 30px 29px;
-  background-color: #63d1bb;
+
+  background-color: $interior-color;
 }
 
-.intro__toys-link {
+.intro__link--toys {
   padding: 30px 202px 30px 29px;
-  background-color: #56c3b2;
+
+  background-color: $toys-color;
 }

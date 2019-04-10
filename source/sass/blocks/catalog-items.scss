@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 
-  list-style: none;
   padding-left: 30px;
   padding-right: 28px;
 }
@@ -10,7 +9,7 @@
 .catalog-item {
   margin-bottom: 30px;
 
-  border: 1px solid grey;
+  border: 1px solid #ececec;
 }
 
 .catalog-item__info {
@@ -25,23 +24,24 @@
 
 .catalog-item__details {
   margin: 0;
+
   font-size: 13px;
   line-height: 30px;
   font-weight: normal;
 }
 
 .catalog-item__price {
+  margin-right: 112px;
+
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
-  margin-right: 112px;
 }
 
 .catalog-item__action {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   margin-left: 28px;
 }
 

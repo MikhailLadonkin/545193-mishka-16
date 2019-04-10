@@ -9,18 +9,20 @@
   margin: 0;
   padding: 0;
   padding-top: 30px;
-
-  list-style: none;
 }
 
-.social__item:first-child {
+.social__item {
+  &:first-child {
   padding-left: 87px;
 }
+}
 
-.social__item:nth-child(2),
-.social__item:nth-child(3n) {
+.social__item {
+  &:nth-child(2),
+  &:nth-child(3n) {
   padding-left: 41px;
   padding-bottom: 58px;
+}
 }
 
 .developer {

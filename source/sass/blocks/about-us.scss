@@ -1,18 +1,16 @@
-
 .about-us__title {
   margin: 0;
   padding-left: 30px;
+  padding-bottom: 88px;
 
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
-  padding-bottom: 88px;
 }
 
 .about-us__list {
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 .about-us__item {
@@ -26,6 +24,8 @@
   padding-bottom: 85px;
 }
 
-.about-us__item:last-child {
+.about-us__item {
+  &:last-child {
   padding-bottom: 61px;
+}
 }

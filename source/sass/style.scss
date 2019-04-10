@@ -1,7 +1,9 @@
-@import "blocks/global.scss";
+@import "base/variables.scss";
+@import "libraries/normalize.scss";
+@import "base/global.scss";
 @import "blocks/page-header.scss";
-@import "blocks/visually-hidden.scss";
-@import "blocks/fonts.scss";
+@import "base/visually-hidden.scss";
+@import "base/fonts.scss";
 @import "blocks/intro.scss";
 @import "blocks/promo.scss";
 @import "blocks/about-us.scss";
