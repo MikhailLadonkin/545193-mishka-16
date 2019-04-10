@@ -13,16 +13,13 @@
 
 .social__item {
   &:first-child {
-  padding-left: 87px;
-}
-}
-
-.social__item {
+    padding-left: 87px;
+  }
   &:nth-child(2),
   &:nth-child(3n) {
-  padding-left: 41px;
-  padding-bottom: 58px;
-}
+    padding-left: 41px;
+    padding-bottom: 58px;
+  }
 }
 
 .developer {

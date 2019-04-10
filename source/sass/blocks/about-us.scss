@@ -22,10 +22,7 @@
   line-height: 20px;
   text-align: left;
   padding-bottom: 85px;
-}
-
-.about-us__item {
   &:last-child {
-  padding-bottom: 61px;
-}
+    padding-bottom: 61px;
+  }
 }
