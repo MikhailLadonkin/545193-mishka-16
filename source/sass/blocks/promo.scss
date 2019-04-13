@@ -87,8 +87,7 @@
 }
 
 @media (min-width: $tablet-width) {
-
-  .promo__info  {
+  .promo__info {
     display: flex;
     flex-direction: row;
     width: 640px;
@@ -134,13 +133,12 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .promo__info {
     width: 540px;
     margin-left: 100px;
   }
 
-  .promo__item-name  {
+  .promo__item-name {
     order: 1;
     z-index: 1;
   }
@@ -150,7 +148,7 @@
     text-align: center;
   }
 
-  .promo__description  {
+  .promo__description {
     margin-left: 225px;
   }
 
@@ -159,5 +157,4 @@
     width: 525px;
     height: 636px;
   }
-
 }

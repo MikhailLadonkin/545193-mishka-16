@@ -29,7 +29,6 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .about-us__title {
     font-weight: bold;
     font-size: 43px;
@@ -57,18 +56,17 @@
   }
 }
 
-  @media (min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
+  .about-us__title {
+    margin-bottom: 101px;
+    margin-left: 225px;
 
-    .about-us__title  {
-      margin-bottom: 101px;
-      margin-left: 225px;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 57px;
+  }
 
-      font-weight: bold;
-      font-size: 53px;
-      line-height: 57px;
-    }
-
-    .about-us__list {
+  .about-us__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
