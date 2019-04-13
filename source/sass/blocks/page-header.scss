@@ -72,26 +72,3 @@
       border-top: none;
     }
   }
-
-  .site-list__item--search  {
-    order: 0;
-    display: none;
-  }
-
-  .site-list__item--cart  {
-    order: 1;
-  }
-  .site-list__item--catalog {
-    order: 2;
-  }
-  .site-list__item--knitting  {
-    order: 3;
-  }
-  .site-list__item--delivery  {
-    display: block;
-    order: 4;
-  }
-}
-
-
-
