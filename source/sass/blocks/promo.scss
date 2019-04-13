@@ -85,3 +85,79 @@
   line-height: 20px;
   font-weight: bold;
 }
+
+@media (min-width: $tablet-width) {
+
+  .promo__info  {
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    justify-content: space-between;
+    margin-bottom: 55px;
+  }
+
+  .promo__best-item {
+    width: 70px;
+    text-align: center;
+  }
+
+  .promo__header {
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .promo__subheader {
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
+  }
+
+  .promo__all {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .promo__description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 292px;
+    margin-right: 44px;
+    margin-left: 50px;
+  }
+
+  .promo__picture {
+    width: 333px;
+    height: 404px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .promo__info {
+    width: 540px;
+    margin-left: 100px;
+  }
+
+  .promo__item-name  {
+    order: 1;
+    z-index: 1;
+  }
+
+  .promo__best-item {
+    order: 0;
+    text-align: center;
+  }
+
+  .promo__description  {
+    margin-left: 225px;
+  }
+
+  .promo__picture {
+    margin-top: -170px;
+    width: 525px;
+    height: 636px;
+  }
+
+}
