@@ -3,6 +3,7 @@ body {
   padding: 0;
   min-width: 320px;
 
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 38px;
@@ -10,3 +11,21 @@ body {
 
   background-color: $primary-color;
 }
+
+.index-container{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .index-container{
+  margin-left: 51px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .index-container{
+  margin-left: 51px;
+  }
+}
+

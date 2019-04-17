@@ -37,8 +37,14 @@
 }
 
 @media (min-width: $tablet-width) {
+  .intro {
+    margin-left: -51px;
+    margin-right: -51px;
+  }
+
   .intro__header {
     margin: 0;
+    margin-top: -75px;
     padding: 161px 139px 371px 139px;
 
     font-weight: bold;
@@ -54,13 +60,13 @@
   .intro__links {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 45px;
+    margin-left: 51px;
   }
 
   .intro__link--interior {
     width: 111px;
-    padding: 35px 187px 34px 36px;
+    padding: 24px 187px 34px 36px;
 
     font-size: 20px;
     font-weight: bold;
@@ -69,7 +75,7 @@
 
   .intro__link--toys {
     width: 94px;
-    padding: 35px 204px 34px 36px;
+    padding: 24px 204px 34px 36px;
 
     font-size: 20px;
     font-weight: bold;
@@ -78,8 +84,11 @@
 }
 
 @media (min-width: $desktop-width) {
+  .intro {
+    margin-bottom: 130px;
+  }
   .intro__header {
-    padding: 161px 273px 354px 273px;
+    padding: 187px 273px 354px 273px;
 
     font-weight: bold;
     font-size: 53px;
@@ -87,12 +96,7 @@
 
     background-image: url("../../img/hero-desktop@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0%;
-  }
-
-  .intro__links {
-    margin-bottom: 120px;
-    margin-left: 50px;
+    background-position: 4% -26%;
   }
 
   .intro__link--interior {
