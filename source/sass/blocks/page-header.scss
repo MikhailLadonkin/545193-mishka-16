@@ -15,6 +15,10 @@
   display: none;
 }
 
+.main-nav__wrapper {
+  padding-top: 80px;
+}
+
 .main-nav__list {
   display: flex;
   flex-direction: column;
@@ -35,7 +39,6 @@
 
 .main-nav__site-navigation {
   order: 0;
-  margin-top: 80px;
 }
 
 .main-nav__user-navigation {
@@ -70,6 +73,10 @@
     height: 46px;
   }
 
+  .main-nav__wrapper {
+  padding-top: 36px;
+  }
+
   .main-nav__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,6 +84,7 @@
 
   .site-list__item {
     border: none;
+    padding-top: 0;
 
     &:first-child {
       border-top: none;
@@ -94,6 +102,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 372px;
+    margin-top: -5px;
+
     border-bottom: 1px solid #ececec;
   }
 
@@ -104,15 +114,12 @@
     padding-right: 33px;
     margin-right: 3px;
     padding-bottom: 18px;
-    padding-top: 30px;
 
     border-right: 1px solid #ececec;
     border-left: 1px solid #ececec;
   }
 
   .site-list__item--cart {
-    padding-top: 32px;
-
     font-size: 17px;
     line-height: 24px;
     font-weight: bold;
@@ -128,12 +135,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-right: 134px;
-    margin-top: 19px;
+    padding-top: 20px;
   }
 
   .site-list__item--catalog {
     padding-left: 50px;
-    padding-top: 0;
 
     font-size: 15px;
     line-height: 24px;
@@ -151,7 +157,7 @@
 
   .site-list__item--delivery {
     padding: 0;
-    margin-top: 19px;
+    padding-top: 20px;
 
     font-size: 15px;
     line-height: 24px;
@@ -178,6 +184,11 @@
     margin-right: 325px;
     margin-top: 0;
     width: 425px;
+    padding-top: 0;
+  }
+
+  .site-list__item {
+    padding-top: 0;
   }
 
   .site-list__item--catalog {
@@ -185,14 +196,12 @@
     margin-left: 50px;
     padding-right: 40px;
     margin-right: 35px;
-    padding-top: 32px;
 
     border-right: 1px solid #ececec;
   }
 
   .site-list__item--knitting {
     padding: 0;
-    padding-top: 32px;
   }
 
   .page-header__logo-link {
@@ -205,6 +214,7 @@
 
     width: 400px;
     padding-left: 0;
+    margin: 0;
 
     border-bottom: none;
   }
