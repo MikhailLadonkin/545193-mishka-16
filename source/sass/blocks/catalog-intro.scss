@@ -13,3 +13,32 @@
   line-height: 30px;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog-intro {
+    margin-top: -75px;
+  }
+
+  .catalog-intro__title {
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 50px;
+    padding-top: 98px;
+    margin-bottom: 84px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-intro {
+    margin-top: -45px;
+  }
+
+  .catalog-intro__title {
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 57px;
+    padding-top: 95px;
+    padding-bottom: 100px;
+    margin-bottom: 133px;
+  }
+}

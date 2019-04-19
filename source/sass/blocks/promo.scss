@@ -1,3 +1,7 @@
+.promo {
+  position: relative;
+}
+
 .promo__info {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,12 @@
   font-size: 17px;
   line-height: 20px;
   color: #63d1bb;
+}
+
+.promo__all {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .promo__details {
@@ -60,6 +70,15 @@
   padding-right: 33px;
 }
 
+.promo__image {
+  position: absolute;
+  top: 350px;
+}
+
+.promo__order {
+  margin-top: 370px;
+}
+
 .promo__picture {
   padding-left: 30px;
   padding-right: 30px;
@@ -84,4 +103,154 @@
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
+}
+
+@media (min-width: $tablet-width) {
+  .promo {
+    margin-bottom: 110px;
+  }
+
+  .promo__info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .promo__item-name {
+    margin-right: 165px;
+  }
+
+  .promo__best-item {
+    width: 70px;
+    margin-top: 10px;
+
+    text-align: center;
+  }
+
+  .promo__header {
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .promo__subheader {
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
+  }
+
+  .promo__all {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .promo__description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 292px;
+    margin-right: 43px;
+  }
+
+  .promo__details {
+    padding-bottom: 39px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #444444;
+  }
+
+  .promo__table {
+    margin: 0;
+    margin-bottom: 65px;
+
+    font-size: 15px;
+    line-height: 20px;
+    color: #444444;
+  }
+
+  .promo__price {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .promo__button {
+    margin: 0;
+    padding: 16px 98px 14px 95px;
+  }
+
+  .promo__image {
+    position: relative;
+    top: 0;
+  }
+
+  .promo__picture {
+    width: 333px;
+    height: 404px;
+    padding: 0;
+  }
+
+  .promo__order {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    margin-bottom: 156px;
+  }
+
+  .promo__info {
+    width: 645px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+  }
+
+  .promo__item-name {
+    order: 1;
+    z-index: 1;
+
+    margin: 0;
+    margin-top: -10px;
+  }
+
+  .promo__header {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .promo__best-item {
+    margin: 0;
+    margin-right: 50px;
+
+    order: 0;
+    text-align: center;
+  }
+
+  .promo__description {
+    margin-left: 175px;
+  }
+
+  .promo__details {
+    padding-bottom: 50px;
+  }
+
+  .promo__table {
+    margin-bottom: 119px;
+  }
+
+  .promo__button {
+    padding: 16px 93px 14px 102px;
+  }
+
+  .promo__picture {
+    margin-top: -170px;
+    width: 525px;
+    height: 636px;
+  }
 }

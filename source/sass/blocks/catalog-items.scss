@@ -50,3 +50,134 @@
 
   align-self: center;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog-list {
+    padding-left: 51px;
+    padding-right: 51px;
+  }
+
+  .catalog-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+  .catalog-item__title {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 25px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .catalog-item__details {
+    margin-bottom: 170px;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #444444;
+  }
+
+  .catalog-item__price {
+    padding-top: 27px;
+    padding-bottom: 29px;
+    margin: 0;
+    margin-right: 130px;
+
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .third-card__price {
+    padding-bottom: 0;
+  }
+
+  .third-card__details {
+    margin-bottom: 150px;
+  }
+
+  .third-card__button {
+    margin-top: 25px;
+  }
+
+  .catalog-item__image {
+    height: 334px;
+  }
+
+  .first-card__image,
+  .second-card__image,
+  .third-card__image {
+    width: 334px;
+    height: 334px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .catalog-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 47px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .catalog-item__image {
+    height: 462px;
+  }
+
+  .first-card__image,
+  .second-card__image,
+  .third-card__image {
+    width: 316px;
+    height: 462px;
+    margin: 0;
+    margin-bottom: 29px;
+  }
+
+  .catalog-item__title {
+    margin: 0;
+    width: 232px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .catalog-item__details {
+    margin-bottom: 45px;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #444444;
+  }
+
+  .catalog-item__price {
+    padding-top: 15px;
+    padding-bottom: 29px;
+    margin: 0;
+    margin-right: 143px;
+
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .catalog-item__button {
+    margin: 0;
+  }
+}
