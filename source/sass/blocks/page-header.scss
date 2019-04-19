@@ -63,18 +63,13 @@
     flex-wrap: wrap;
   }
 
-  .page-header__logo-link {
-    margin-left: 51px;
-    margin-top: -30px;
-  }
-
   .page-header__logo-image {
     width: 112px;
     height: 46px;
   }
 
   .main-nav__wrapper {
-    padding-top: 36px;
+    padding-top: 0;
   }
 
   .main-nav__list {
@@ -98,10 +93,10 @@
   .main-nav__user-navigation {
     order: unset;
 
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 372px;
+    padding-left: 320px;
     margin-top: -5px;
 
     border-bottom: 1px solid #ececec;
@@ -114,12 +109,15 @@
     padding-right: 33px;
     margin-right: 3px;
     padding-bottom: 18px;
+    padding-top: 36px;
 
     border-right: 1px solid #ececec;
     border-left: 1px solid #ececec;
   }
 
   .site-list__item--cart {
+    padding-top: 36px;
+
     font-size: 17px;
     line-height: 24px;
     font-weight: bold;
@@ -134,13 +132,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 134px;
+    margin-right: 80px;
     padding-top: 20px;
   }
 
   .site-list__item--catalog {
-    padding-left: 50px;
-
+    padding-left: 0;
     font-size: 15px;
     line-height: 24px;
     font-weight: bold;
@@ -157,11 +154,13 @@
 
   .site-list__item--delivery {
     padding: 0;
-    padding-top: 20px;
+    padding-top: 10px;
+  }
 
+  .site-list__link--delivery {
+    font-weight: normal;
     font-size: 15px;
     line-height: 24px;
-    font-weight: bold;
     color: #444444;
   }
 }
@@ -179,9 +178,13 @@
     margin: 0 -50%;
   }
 
+  .main-nav__wrapper {
+    padding-top: 0;
+  }
+
   .main-nav__site-navigation {
     order: 0;
-    margin-right: 325px;
+    margin-right: 275px;
     margin-top: 0;
     width: 425px;
     padding-top: 0;
@@ -193,15 +196,16 @@
 
   .site-list__item--catalog {
     padding: 0;
-    margin-left: 50px;
     padding-right: 40px;
     margin-right: 35px;
+    padding-top: 36px;
 
     border-right: 1px solid #ececec;
   }
 
   .site-list__item--knitting {
     padding: 0;
+    padding-top: 36px;
   }
 
   .page-header__logo-link {
@@ -212,7 +216,7 @@
   .main-nav__user-navigation {
     order: 1;
 
-    width: 400px;
+    width: 350px;
     padding-left: 0;
     margin: 0;
 
@@ -221,10 +225,11 @@
 
   .site-list__item--search {
     margin-right: 0;
+    padding-top: 36px;
   }
 
   .site-list__item--cart {
-    padding-right: 50px;
+    padding-top: 36px;
   }
 
   .main-nav__special-offers {
@@ -239,7 +244,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 51px;
     padding-top: 19px;
 
     border-top: 1px solid #ececec;
@@ -256,12 +260,16 @@
 
   .site-list__item--sale {
     padding: 0;
-    margin-right: 494px;
+    margin-right: 495px;
   }
 
   .site-list__item--delivery {
-
-    color: #444444;
     margin-top: 0;
+  }
+  .site-list__link--delivery {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #444444;
   }
 }

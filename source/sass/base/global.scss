@@ -18,19 +18,28 @@ body {
   margin: 0 auto;
   width: 260px;
 }
+.page-header__container,
+.page-footer__container {
+  margin: 0 auto;
+}
+
 
 @media (min-width: $tablet-width) {
   .index-container,
   .catalog-cantainer,
-  .form-container {
-    width: 670px;
+  .form-container,
+  .page-header__container,
+  .page-footer__container {
+    width: 668px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .index-container,
   .catalog-cantainer,
-  .form-container {
-    width: 1048px;
+  .form-container,
+  .page-header__container,
+  .page-footer__container {
+    width: 1050px;
   }
 }

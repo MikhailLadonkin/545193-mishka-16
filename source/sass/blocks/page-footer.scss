@@ -42,11 +42,14 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer__container {
+    display: flex;
+  }
+
   .page-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 51px;
   }
 
   .page-footer__logo-image {
@@ -66,10 +69,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-footer {
-    padding-left: 51px;
-  }
-
   .page-footer__social {
     margin-left: 349px;
   }
