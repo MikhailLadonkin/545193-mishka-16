@@ -57,6 +57,10 @@
   font-weight: bold;
 }
 
+.visually-hidden__search {
+  margin: 0;
+}
+
 @media (min-width: $tablet-width) {
   .page-header {
     flex-direction: row;
@@ -113,6 +117,21 @@
 
     border-right: 1px solid #ececec;
     border-left: 1px solid #ececec;
+  }
+
+  .visually-hidden__search {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 
   .site-list__item--cart {
