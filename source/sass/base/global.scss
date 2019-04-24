@@ -13,13 +13,11 @@ body {
 }
 
 .index-container,
-.catalog-cantainer,
 .form-container {
   margin: 0 auto;
   width: 260px;
 }
 
-.page-header__container,
 .page-footer__container {
   margin: 0 auto;
 }
@@ -27,17 +25,21 @@ body {
 
 @media (min-width: $tablet-width) {
   .index-container,
-  .catalog-cantainer,
+  .catalog-container,
   .form-container,
   .page-header__container,
   .page-footer__container {
     width: 668px;
   }
+
+  .catalog-container {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .index-container,
-  .catalog-cantainer,
+  .catalog-container,
   .form-container,
   .page-header__container,
   .page-footer__container {

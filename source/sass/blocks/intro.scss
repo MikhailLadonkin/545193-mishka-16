@@ -28,12 +28,26 @@
   padding: 30px 185px 30px 29px;
 
   background-color: $interior-color;
+
+  &:hover {
+    margin-top: -5px;
+    padding-top: 25px;
+  }
+
+  &:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .intro__link--toys {
   padding: 30px 202px 30px 29px;
 
   background-color: $toys-color;
+
+  &:hover {
+    margin-top: -5px;
+    padding-top: 25px;
+  }
 }
 
 @media (min-width: $tablet-width) {
