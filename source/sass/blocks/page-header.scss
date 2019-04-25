@@ -106,6 +106,10 @@
   }
 }
 
+.main-nav__wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .main-nav__site-navigation {
   order: 0;
 }
@@ -161,6 +165,12 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .main-nav__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
   .page-header__container {
     margin: 0 auto;
@@ -261,6 +271,11 @@
   }
 
   .main-nav__site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-nav__site-navigation-list {
     width: 357px;
     display: flex;
     flex-direction: row;
@@ -320,6 +335,9 @@
 
   .main-nav__site-navigation {
     order: 0;
+  }
+
+  .main-nav__site-navigation-list {
     margin-right: 275px;
     margin-top: 0;
     width: 425px;
