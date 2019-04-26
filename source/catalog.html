@@ -138,21 +138,17 @@
           </ul>
         </section>
         <section class="production">
-          <h2 class="production__header">Процесс производства</h2>
-          <div class="production__video">
-            <img class="production__video--image" src="img/video-mobile@1x.jpg" width="260" height="150" alt="Процесс производства">
+          <div class="production__header">
+            <h2 class="production__header-text">Процесс производства</h2>
           </div>
-          <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-          <button class="button button--transparent production__button--order">Сделать заказ</button>
+          <div class="production__video">
+            <img class="production__video production__video--image" src="img/video-mobile@1x.jpg" width="260" height="150" alt="Процесс производства">
+          </div>
+          <div class="production__details">
+            <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+            <button class="button button--transparent production__button production__button--order">Сделать заказ</button>
+          </div>
         </section>
-        <form class="modal" name="modal-form" method="post" action="https://echo.htmlacademy.ru">
-          <h2 class="modal__header">ДОБАВИТЬ В КОРЗИНУ</h2>
-          <p class="modal__subheader">Выберите размер:</p>
-          <input class="modal__size" name="modal-size" type="button" value="S">
-          <input class="modal__size" name="modal-size" type="button" value="M">
-          <input class="modal__size" name="modal-size" type="button" value="L">
-          <button class="modal__submit" type="button">ДОБАВИТЬ</button>
-        </form>
       </div>
     </main>
     <footer class="page-footer">
@@ -215,5 +211,29 @@
         </div>
       </div>
     </footer>
+    <section class="modal">
+      <form class="modal__form" name="modal-form" method="post" action="https://echo.htmlacademy.ru">
+        <h2 class="modal__form-header">Добавить в корзину</h2>
+        <p class="modal__form-subheader">Выберите размер:</p>
+        <ul class="modal__form-list">
+          <li class="modal__form-item--s">
+            <label class="modal__form-item">
+              <input class="modal__form-size" name="modal-size" type="submit" value="S" aria-label="маленький размер">
+            </label>
+          </li>
+          <li class="modal__form-item--m">
+            <label class="modal__form-item">
+            <input class="modal__form-size" name="modal-size" type="submit" value="M" aria-label="средний размер">
+            </label>
+          </li>
+          <li class="modal__form-item--l">
+            <label class="modal__form-item">
+            <input class="modal__form-size" name="modal-size" type="submit" value="L" aria-label="большой размер">
+            </label>
+          </li>
+        </ul>
+        <button class="modal__form-submit" type="submit">Добавить</button>
+      </form>
+    </section>
   </body>
 </html>
