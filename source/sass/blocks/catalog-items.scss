@@ -31,8 +31,6 @@
 }
 
 .catalog-item__price {
-  margin-right: 112px;
-
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
@@ -41,20 +39,29 @@
 .catalog-item__action {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
   margin-left: 28px;
+  margin-right: 28px;
 }
 
 .catalog-item__button {
   margin-left: 30px;
-
+  border: none;
   align-self: center;
+}
+
+.catalog-item__icon:hover path {
+  fill: #63d1bb;
+}
+
+.catalog-item__icon:focus path {
+  fill: rgba(70, 193, 174, 0.3);
 }
 
 @media (min-width: $tablet-width) {
   .catalog-list {
-    padding-left: 51px;
-    padding-right: 51px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .catalog-item {
@@ -82,11 +89,16 @@
     color: #444444;
   }
 
+  .catalog-item__action {
+    margin-left: 32px;
+    margin-right: 32px;
+    min-width: 270px;
+  }
+
   .catalog-item__price {
     padding-top: 27px;
     padding-bottom: 29px;
     margin: 0;
-    margin-right: 130px;
 
     font-weight: bold;
     font-size: 17px;
@@ -128,11 +140,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 47px;
+    margin-right: 48px;
 
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  .catalog-item__profile {
+    min-width: 257px;
+    margin: 0 auto;
   }
 
   .catalog-item__image {
@@ -149,16 +166,27 @@
   }
 
   .catalog-item__title {
-    margin: 0;
     width: 232px;
 
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    &:focus {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .catalog-item__info {
+    margin: 0;
   }
 
   .catalog-item__details {
-    margin-bottom: 45px;
+    margin-bottom: 71px;
 
     font-weight: normal;
     font-size: 15px;
@@ -166,11 +194,18 @@
     color: #444444;
   }
 
+  .third-card__details {
+    margin-bottom: 47px;
+  }
+
+  .catalog-item__action {
+    margin: 0;
+  }
+
   .catalog-item__price {
     padding-top: 15px;
     padding-bottom: 29px;
     margin: 0;
-    margin-right: 143px;
 
     font-weight: bold;
     font-size: 17px;
