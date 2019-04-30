@@ -1,0 +1,85 @@
+.extra__heading {
+  margin-bottom: 23px;
+}
+
+.extra__wishes {
+  width: 243px;
+  padding-top: 18px;
+  padding-left: 17px;
+  border: 1px solid #323232;
+}
+
+.extra__info {
+  margin-bottom: 31px;
+}
+
+.extra__info-text {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #444444;
+}
+
+.form__submit {
+  margin-bottom: 55px;
+}
+
+.form__submit--link {
+  padding: 20px 43px;
+
+  font-size: 17px;
+  line-height: 16px;
+  color: #323232;
+  text-decoration: none;
+}
+@media (min-width: $tablet-width) {
+  .extra__wrapper {
+    display: flex;
+    margin-bottom: 53px;
+  }
+
+  .extra__heading {
+    margin-right: 128px;
+  }
+
+  .extra__wishes {
+    width: 501px;
+  }
+
+  .extra__user {
+    display: flex;
+  }
+
+  .extra__info {
+    order: 1;
+  }
+
+  .form__submit {
+    margin-right: 155px;
+  }
+
+  .form__submit--link {
+  padding: 20px 32px;
+  }
+
+}
+
+
+@media (min-width: $desktop-width) {
+  .extra__heading {
+    margin-right: 74px;
+  }
+
+  .extra__wishes {
+    width: 700px;
+  }
+
+  .extra__user {
+    margin-left: 105px;
+  }
+
+  .form__submit {
+    margin-right: 214px;
+  }
+
+}

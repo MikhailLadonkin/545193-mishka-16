@@ -1,0 +1,87 @@
+.info__personal {
+  margin-bottom: 34px;
+}
+
+.info__personal-heading {
+  margin-bottom: 33px;
+}
+
+.info__personal-item--name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .personal__wrapper {
+    display: flex;
+    padding-top: 70px;
+  }
+
+  .info__personal-heading {
+    margin-right: 127px;
+  }
+
+  .info__personal-list {
+    margin-top: -20px;
+  }
+
+  .info__personal-item {
+    margin-bottom: 60px;
+  }
+
+  .info__personal-item--name {
+    margin-right: 25px;
+  }
+
+  .input__field--name {
+    width: 411px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 18px;
+  }
+
+  .input__field--surname {
+    width: 370px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+
+  .input__field--patronimic {
+    width: 368px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+  }
+
+}
+
+
+@media (min-width: $desktop-width) {
+  .info__personal-heading {
+    margin-right: 75px;
+  }
+
+  .input__field--name {
+    width: 605px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 18px;
+  }
+
+  .input__field--surname {
+    width: 557px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+
+  .input__field--patronimic {
+    width: 556px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+  }
+
+}
