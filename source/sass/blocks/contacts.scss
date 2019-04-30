@@ -1,6 +1,7 @@
 .contacts {
   margin-bottom: 42px;
 }
+
 .contacts__heading {
   margin-bottom: 42px;
 
@@ -59,11 +60,11 @@
 
 @media (min-width: $tablet-width) {
   .contacts__item--email {
-  margin-right: 55px;
+    margin-right: 55px;
   }
 
   .contacts__item--address {
-  width: 219px;
+    width: 219px;
   }
 
   .map {
@@ -79,7 +80,6 @@
     margin-right: -51px;
     margin-bottom: 55px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -118,5 +118,4 @@
   .map__button--submit {
     margin-left: 174px;
   }
-
 }

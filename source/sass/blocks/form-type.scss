@@ -19,8 +19,7 @@
 }
 
 .radio-indicator {
-
-    &::before {
+  &::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -43,8 +42,6 @@
   border-radius: 50%;
 }
 
-
-
 @media (min-width: $tablet-width) {
   .form__item--type {
     margin-bottom: 66px;
@@ -61,7 +58,6 @@
   .filters__list--type {
     margin-top: -10px;
   }
-
 }
 
 
@@ -69,5 +65,4 @@
   .form__heading--type {
     margin-right: 156px;
   }
-
 }

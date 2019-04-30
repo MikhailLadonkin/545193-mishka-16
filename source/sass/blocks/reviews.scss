@@ -24,7 +24,6 @@
   font-size: 15px;
   line-height: 30px;
   color: #444444;
-
 }
 
 .reviews__item-author--name {
@@ -64,9 +63,7 @@
   padding: 20px 80px;
 }
 
-
 @media (min-width: $tablet-width) {
-
   .reviews {
     margin-left: -51px;
 
@@ -111,7 +108,6 @@
     font-size: 17px;
     line-height: 30px;
     color: #444444;
-
   }
 
   .reviews__item-author {
@@ -129,11 +125,9 @@
     padding: 13px 20px 13px 20px;
     border: none;
   }
-
 }
 
 @media (min-width: $desktop-width) {
-
   .reviews {
     margin-left: 0;
   }
@@ -161,5 +155,4 @@
     margin-bottom: 49px;
     width: 768px;
   }
-
 }
