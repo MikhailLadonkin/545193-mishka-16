@@ -31,9 +31,24 @@
 }
 
 .catalog-item__price {
+  position: relative;
+
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: -17px;
+    left: 0;
+
+    width: 204px;
+    height: 1px;
+
+    background-color: #f1f1f1;
+  }
 }
 
 .catalog-item__action {
@@ -48,13 +63,15 @@
   margin-left: 30px;
   border: none;
   align-self: center;
+
+  background: transparent;
 }
 
 .catalog-item__icon:hover path {
   fill: #63d1bb;
 }
 
-.catalog-item__icon:focus path {
+.catalog-item__icon:active path {
   fill: rgba(70, 193, 174, 0.3);
 }
 
@@ -103,6 +120,19 @@
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
+
+    &::after {
+    content: "";
+
+    position: absolute;
+    top: -17px;
+    left: 0;
+
+    width: 268px;
+    height: 1px;
+
+    background-color: #f1f1f1;
+    }
   }
 
   .third-card__price {

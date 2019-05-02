@@ -1,4 +1,6 @@
 .form__intro {
+  position: relative;
+
   padding-top: 76px;
   padding-bottom: 80px;
   margin-left: -30px;
@@ -7,6 +9,14 @@
 
   background-color: #f1f1f1;
 }
+
+.form__intro-zigzag {
+    display: none;
+}
+
+.form__intro-zigzag path {
+    fill: #f1f1f1;
+  }
 
 .form__intro--text {
   font-size: 27px;
@@ -36,6 +46,17 @@
     padding-bottom: 80px;
   }
 
+  .form__intro-zigzag {
+    display: block;
+    position: absolute;
+
+    width: 768px;
+    height: 23px;
+
+    bottom: -8px;
+    left: 0;
+  }
+
   .form__intro--text {
     width: 387px;
 
@@ -63,6 +84,16 @@
     margin-right: -225px;
     padding-bottom: 95px;
     margin-bottom: 146px;
+  }
+
+  .form__intro-zigzag {
+    position: absolute;
+
+    width: 1150px;
+    height: 34px;
+
+    bottom: -12px;
+    left: 0;
   }
 
   .form__intro--text {

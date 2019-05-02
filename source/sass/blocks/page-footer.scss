@@ -13,6 +13,7 @@
 }
 
 .page-footer__social {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -20,6 +21,20 @@
   padding: 0;
   padding-top: 30px;
   width: 148px;
+  margin-bottom: 58px;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    bottom: -27px;
+    left: -30px;
+
+    width: 200px;
+    height: 1px;
+
+    background-color: rgba(0,0,0,0.1)
+  }
 }
 
 .social__item {
@@ -84,9 +99,17 @@
   .page-footer__social {
     padding-top: 0;
     margin-left: 0;
+    margin-bottom: 0;
+
+    &::after {
+      content: none;
+    }
   }
 
   .developer__link {
+    display: flex;
+    align-items: center;
+
     &:active {
       opacity: 0.3;
     }
@@ -95,8 +118,8 @@
 
 @media (min-width: $desktop-width) {
   .container {
-    width: 1150px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

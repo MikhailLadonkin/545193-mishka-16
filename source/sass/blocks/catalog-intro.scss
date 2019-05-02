@@ -14,11 +14,32 @@
   text-align: center;
 }
 
+.catalog-intro__zigzag {
+    display: none;
+  }
+
 @media (min-width: $tablet-width) {
   .catalog-intro {
+    position: relative;
+
     margin-top: -75px;
     margin-left: -51px;
     margin-right: -51px;
+  }
+
+  .catalog-intro__zigzag {
+    display: block;
+    position: absolute;
+
+    width: 768px;
+    height: 23px;
+
+    bottom: -8px;
+    left: 0;
+  }
+
+  .catalog-intro__zigzag path {
+    fill: #f1f1f1;
   }
 
   .catalog-intro__title {
@@ -33,6 +54,16 @@
 @media (min-width: $desktop-width) {
   .catalog-intro {
     margin-top: -45px;
+  }
+
+  .catalog-intro__zigzag {
+    position: absolute;
+
+    width: 1150px;
+    height: 34px;
+
+    bottom: -12px;
+    left: 0;
   }
 
   .catalog-intro__title {
