@@ -3,7 +3,7 @@
   width: 320px;
   margin: 0 auto;
 
-  box-shadow: 0px 5px 10px 0;
+  box-shadow: 0 5px 10px 0;
   border: solid 1px #c6c6c6;
 }
 
@@ -40,10 +40,19 @@
 
 .modal__item {
   position: relative;
+  padding: 20px 37px;
+  border: 2px solid #f1f1f1;
+
+  &:hover {
+    border: 2px solid #444444;
+  }
+
+  &:active {
+    border:2px solid #63d1bb;;
+  }
 }
 
 .modal__item-s {
-
   &::before {
     content: "s";
 
@@ -58,7 +67,6 @@
 }
 
 .modal__item-m {
-
   &::before {
     content: "m";
 
@@ -73,7 +81,6 @@
 }
 
 .modal__item-l {
-
   &::before {
     content: "l";
 
@@ -84,19 +91,6 @@
     text-transform: uppercase;
     font-size: 17px;
     line-height: 16px;
-  }
-}
-
-.modal__item {
-  padding: 20px 37px;
-  border: 2px solid #f1f1f1;
-
-  &:hover {
-    border: 2px solid #444444;
-  }
-
-  &:active {
-    border:2px solid #63d1bb;;
   }
 }
 
@@ -121,14 +115,14 @@
   }
 
   .modal__heading {
-  width: 358px;
-  margin: 0 auto;
-  margin-top: 51px;
-  margin-bottom: 32px;
+    width: 358px;
+    margin: 0 auto;
+    margin-top: 51px;
+    margin-bottom: 32px;
 
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 57px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 57px;
   }
 
   .modal__subheading {
@@ -145,10 +139,19 @@
 
   .modal__item {
     position: relative;
+    padding: 20px 52px;
+    border: 2px solid #f1f1f1;
+
+    &:hover {
+      border: 2px solid #444444;
+    }
+
+    &:active {
+      border:2px solid #63d1bb;;
+    }
   }
 
   .modal__item-s {
-
     &::before {
       content: "s";
 
@@ -163,7 +166,6 @@
   }
 
   .modal__item-m {
-
     &::before {
       content: "m";
 
@@ -178,7 +180,6 @@
   }
 
   .modal__item-l {
-
     &::before {
       content: "l";
 
@@ -189,19 +190,6 @@
       text-transform: uppercase;
       font-size: 17px;
       line-height: 16px;
-    }
-  }
-
-  .modal__item {
-    padding: 20px 52px;
-    border: 2px solid #f1f1f1;
-
-    &:hover {
-      border: 2px solid #444444;
-    }
-
-    &:active {
-      border:2px solid #63d1bb;;
     }
   }
 
@@ -219,7 +207,4 @@
 
     background-color: #63d1bb;
   }
-}
-
-@media (min-width: $desktop-width) {
 }
