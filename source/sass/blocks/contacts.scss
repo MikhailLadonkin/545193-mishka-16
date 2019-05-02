@@ -106,6 +106,7 @@
     }
   }
   .contacts__heading {
+
     &::before {
       content: "";
 
@@ -121,6 +122,7 @@
       background-size: 101%;
     }
   }
+
   .contacts__item--email {
     margin-right: 55px;
   }
@@ -149,8 +151,6 @@
     position: relative;
     margin-left: 173px;
     margin-bottom: 84px;
-
-
   }
 
   .map__item {

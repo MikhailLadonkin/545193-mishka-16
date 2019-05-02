@@ -15,8 +15,8 @@
 }
 
 .catalog-intro__zigzag {
-    display: none;
-  }
+  display: none;
+}
 
 @media (min-width: $tablet-width) {
   .catalog-intro {
@@ -57,8 +57,6 @@
   }
 
   .catalog-intro__zigzag {
-    position: absolute;
-
     width: 1150px;
     height: 34px;
 

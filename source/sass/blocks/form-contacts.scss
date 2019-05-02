@@ -39,7 +39,7 @@
     width: 501px;
     background: #f1f1f1;
   }
-}
+
   .contacts__phone-item {
     position: relative;
 
@@ -67,7 +67,7 @@
       content: "";
 
       position: absolute;
-      top:4px;
+      top: 4px;
       right: 5px;
 
       width: 32px;
@@ -79,6 +79,7 @@
       opacity: 0.2;
     }
   }
+}
 
 @media (min-width: $desktop-width) {
   .form__contacts {
