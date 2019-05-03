@@ -1,4 +1,5 @@
 .about-us__title {
+  position: relative;
   margin: 0;
   padding-left: 30px;
   padding-bottom: 88px;
@@ -6,6 +7,21 @@
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: -34px;
+    left: -30px;
+
+    width: 319px;
+    height: 6px;
+
+    background: url("../img/bg-zigzag-line.svg");
+    background-repeat: no-repeat;
+    background-size: 102%;
+  }
 }
 
 .about-us__list {
@@ -14,19 +30,57 @@
 }
 
 .about-us__item {
-  margin-left: 30px;
-  margin-right: 40px;
+  position: relative;
+  margin-bottom: 85px;
 
   font-weight: bold;
   font-size: 17px;
   line-height: 20px;
   text-align: left;
-  margin-bottom: 85px;
 
   &:last-child {
     margin-bottom: 61px;
   }
 }
+
+.about-us__item-icon {
+  position: absolute;
+
+  &:first-child {
+    top: -40px;
+    left: 8px;
+  }
+
+  &:nth-child(2) {
+    top: -40px;
+    left: 0;
+  }
+
+  &:nth-child(3) {
+    top: -43px;
+    left: 7px;
+  }
+
+  &:nth-child(4) {
+    top: -40px;
+    left: 3px;
+  }
+
+  &:nth-child(5) {
+    top: -50px;
+    left: -6px;
+  }
+
+  &:nth-child(6) {
+    top: -43px;
+    left: 3px;
+  }
+}
+
+.about-us__item-icon path {
+  fill: #63d1bb;
+}
+
 
 @media (min-width: $tablet-width) {
   .about-us__title {
@@ -36,6 +90,21 @@
     font-weight: bold;
     font-size: 43px;
     line-height: 50px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: -60px;
+      left: -50px;
+
+      width: 771px;
+      height: 15px;
+
+      background: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 101%;
+    }
   }
 
   .about-us__list {
@@ -95,6 +164,21 @@
     font-weight: bold;
     font-size: 53px;
     line-height: 57px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: -60px;
+      left: -200px;
+
+      width: 1050px;
+      height: 23px;
+
+      background: url("../img/bg-zigzag-line.svg");
+      background-repeat: no-repeat;
+      background-size: 101%;
+    }
   }
 
   .about-us__list {
