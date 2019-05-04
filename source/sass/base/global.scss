@@ -63,6 +63,10 @@ body {
   margin-left: 62px;
 }
 
+.active {
+  display: block;
+}
+
 
 @media (min-width: $tablet-width) {
   .index-container,
