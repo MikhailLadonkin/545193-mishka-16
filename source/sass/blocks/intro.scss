@@ -20,7 +20,7 @@
   font-size: 27px;
   line-height: 30px;
   text-align: center;
-  }
+}
 
 .intro__links {
   display: flex;
@@ -112,7 +112,9 @@
       background-repeat: no-repeat;
       background-position: 50% 0%;
       background-size: cover;
+    }
   }
+
   .intro__heading-text {
     margin: 0;
     margin-top: -4px;
@@ -122,7 +124,6 @@
     font-size: 43px;
     line-height: 50px;
     text-align: center;
-    }
   }
 
   .intro__links {
@@ -160,19 +161,19 @@
     line-height: 30px;
 
     &::after {
-    content: "";
+      content: "";
 
-    position: absolute;
-    width: 40px;
-    height: 62px;
+      position: absolute;
+      width: 40px;
+      height: 62px;
 
-    top: 27px;
-    right: 37px;
+      top: 27px;
+      right: 37px;
 
-    background: url("../img/icon-interior.svg");
-    opacity: 0.5;
-    z-index: 2;
-  }
+      background: url("../img/icon-interior.svg");
+      opacity: 0.5;
+      z-index: 2;
+    }
   }
 
   .intro__link--toys {
@@ -184,19 +185,19 @@
     line-height: 30px;
 
     &::after {
-    content: "";
+      content: "";
 
-    position: absolute;
-    width: 60px;
-    height: 60px;
+      position: absolute;
+      width: 60px;
+      height: 60px;
 
-    top: 31px;
-    right: 35px;
+      top: 31px;
+      right: 35px;
 
-    background: url("../img/icon-toy.svg");
-    opacity: 0.5;
-    z-index: 2;
-  }
+      background: url("../img/icon-toy.svg");
+      opacity: 0.5;
+      z-index: 2;
+    }
   }
 }
 
@@ -208,9 +209,9 @@
     margin-top: -48px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/hero-desktop@2x.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+      background-image: url("../img/hero-desktop@2x.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
   .intro__heading .intro__heading-text {

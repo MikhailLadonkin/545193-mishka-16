@@ -145,17 +145,17 @@
     margin-right: 76px;
 
     &::after {
-    content: "";
+      content: "";
 
-    position: absolute;
-    bottom: 32px;
-    left: 3px;
+      position: absolute;
+      bottom: 32px;
+      left: 3px;
 
-    width: 200px;
-    height: 1px;
+      width: 200px;
+      height: 1px;
 
-    background-color: #63d1bb;
-  }
+      background-color: #63d1bb;
+    }
   }
 
   .contacts__item--address {
@@ -193,6 +193,7 @@
   }
 
   .map {
+    display: block;
     margin-bottom: 104px;
   }
 
@@ -263,14 +264,10 @@
     content: "";
     position: absolute;
     bottom: 1px;
-    left: 0px;
+    left: 0;
     width: 200px;
     height: 1px;
     background-color: #63d1bb;
-  }
-
-  .map {
-    display: block;
   }
 
   .map__button--submit {

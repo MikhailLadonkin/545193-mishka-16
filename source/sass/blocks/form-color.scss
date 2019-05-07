@@ -52,6 +52,7 @@
   .form__item--color {
     background-color: #f1f1f1;
   }
+
   .color__wrapper {
     display: flex;
     padding-top: 69px;
@@ -59,10 +60,6 @@
 
   .form__heading--color {
     margin-right: 203px;
-  }
-
-  .filters-color {
-    margin-top: 0;
   }
 
   .filters__list--color {
@@ -73,6 +70,7 @@
   }
 
   .filters-color {
+    margin-top: 0;
     margin-bottom: 58px;
 
     &:nth-child(2) {
