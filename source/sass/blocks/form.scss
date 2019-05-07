@@ -4,10 +4,11 @@
 
   width: 320px;
 
-  box-shadow: 0 5px 10px 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
   border: solid 1px #c6c6c6;
 
   background-color: #ffffff;
+  z-index: 20;
 }
 
 .modal-hidden {
@@ -15,11 +16,10 @@
 }
 
 .modal__heading {
-  width: 150px;
-  margin: 0 auto;
   margin-top: 36px;
   margin-bottom: 25px;
 
+  text-align: center;
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
@@ -27,10 +27,9 @@
 }
 
 .modal__subheading {
-  width: 151px;
-  margin: 0 auto;
   margin-bottom: 28px;
 
+  text-align: center;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
@@ -89,20 +88,19 @@
   }
 
   .modal__heading {
-    width: 358px;
-    margin: 0 auto;
     margin-top: 51px;
     margin-bottom: 32px;
 
+    text-align: center;
     font-weight: bold;
     font-size: 30px;
     line-height: 57px;
   }
 
   .modal__subheading {
-    width: 156px;
     margin-bottom: 26px;
 
+    text-align: center;
     font-size: 17px;
     line-height: 30px;
   }

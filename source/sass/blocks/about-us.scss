@@ -1,8 +1,7 @@
 .about-us__title {
   position: relative;
   margin: 0;
-  padding-left: 30px;
-  padding-bottom: 88px;
+  padding-bottom: 84px;
 
   font-weight: bold;
   font-size: 25px;
@@ -12,7 +11,7 @@
     content: "";
 
     position: absolute;
-    top: -34px;
+    top: -36px;
     left: -30px;
 
     width: 319px;
@@ -31,7 +30,7 @@
 
 .about-us__item {
   position: relative;
-  margin-bottom: 85px;
+  margin-bottom: 83px;
 
   font-weight: bold;
   font-size: 17px;
@@ -39,43 +38,40 @@
   text-align: left;
 
   &:last-child {
-    margin-bottom: 61px;
+    margin-bottom: 58px;
   }
 }
 
 .about-us__item-icon {
   position: absolute;
-
-  &:first-child {
-    top: -40px;
-    left: 8px;
-  }
-
-  &:nth-child(2) {
-    top: -40px;
-    left: 0;
-  }
-
-  &:nth-child(3) {
-    top: -43px;
-    left: 7px;
-  }
-
-  &:nth-child(4) {
-    top: -40px;
-    left: 3px;
-  }
-
-  &:nth-child(5) {
-    top: -50px;
-    left: -6px;
-  }
-
-  &:nth-child(6) {
-    top: -43px;
-    left: 3px;
-  }
+  top: -54px;
+  left: 8px;
 }
+
+.about-us__item-icon--money {
+  left: 0;
+}
+
+.about-us__item-icon--heart {
+  top: -50px;
+  left: 7px;
+}
+
+.about-us__item-icon--ball {
+  top: -50px;
+  left: 4px;
+}
+
+.about-us__item-icon--rocket {
+  top: -50px;
+  left: -5px;
+}
+
+.about-us__item-icon--present {
+  top: -52px;
+  left: 3px;
+}
+
 
 .about-us__item-icon path {
   fill: #63d1bb;
@@ -95,7 +91,7 @@
       content: "";
 
       position: absolute;
-      top: -60px;
+      top: -67px;
       left: -50px;
 
       width: 771px;
@@ -169,7 +165,7 @@
       content: "";
 
       position: absolute;
-      top: -60px;
+      top: -80px;
       left: -200px;
 
       width: 1050px;
@@ -182,6 +178,7 @@
   }
 
   .about-us__list {
+    width: 650px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -192,6 +189,10 @@
   .about-us__item {
     &:nth-child(5) {
       width: 295px;
+    }
+
+    &:nth-child(-n+3) {
+      margin-right: 70px;
     }
   }
 }

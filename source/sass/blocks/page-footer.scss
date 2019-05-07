@@ -136,18 +136,12 @@
   }
 
   .developer__logo-image {
-    margin-right: -9px;
+    margin-right: 9px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .container {
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 50px;
-    padding-left: 50px;
-  }
+
 
   .page-footer__social {
     margin-top: 15px;

@@ -11,7 +11,7 @@ var mainNavWrapper = document.querySelector('.main-nav__wrapper');
 
 button.addEventListener("click", function(evt){
   evt.preventDefault();
-  popup.classList.add("active");
+  popup.classList.add("modal-active");
   popup.classList.remove("modal-hidden");
 });
 

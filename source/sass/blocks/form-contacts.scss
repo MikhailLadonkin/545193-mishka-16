@@ -13,10 +13,13 @@
 @media (min-width: $tablet-width) {
   .form__contacts {
     background-color: #f1f1f1;
-    margin-right: -51px;
-    margin-left: -51px;
-    padding-top: 69px;
+    padding-top: 65px;
     padding-bottom: 50px;
+    margin-bottom: 69px;
+  }
+
+  .contacts__phone {
+    margin-bottom: 43px;
   }
 
   .contacts__phone-wrapper,
@@ -26,29 +29,28 @@
 
   .contacts__phone-heading {
     margin-right: 134px;
-    margin-left: 51px;
   }
 
   .contacts__email-heading {
     margin-right: 107px;
-    margin-left: 51px;
   }
 
   .contacts__phone-number,
   .contacts__email-address {
-    width: 501px;
+    width: 482px;
     background: #f1f1f1;
   }
 
   .contacts__phone-item {
     position: relative;
+    margin-top: -18px;
 
     &::after {
       content: "";
 
       position: absolute;
-      top: 8px;
-      right: 8px;
+      top: 10px;
+      right: 25px;
 
       width: 25px;
       height: 24px;
@@ -62,13 +64,17 @@
 
   .contacts__email-item {
     position: relative;
+    margin-top: -18px;
+
+    font-size: 19px;
+    line-height: 18px;
 
     &::after {
       content: "";
 
       position: absolute;
-      top: 4px;
-      right: 5px;
+      top: 12px;
+      right: 20px;
 
       width: 32px;
       height: 26px;
@@ -78,6 +84,10 @@
 
       opacity: 0.2;
     }
+  }
+
+  .input__field {
+    padding-left: 17px;
   }
 }
 
@@ -89,17 +99,55 @@
   }
 
   .contacts__phone-heading {
-    margin-right: 82px;
-    margin-left: 114px;
+    margin-right: 77px;
+    margin-left: 59px;
   }
 
   .contacts__email-heading {
     margin-right: 55px;
-    margin-left: 114px;
+    margin-left: 55px;
+  }
+
+  .contacts__phone-item {
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
+      width: 25px;
+      height: 24px;
+
+      background: url("../img/icon-phone.svg");
+      background-repeat: no-repeat;
+
+      opacity: 0.2;
+    }
+  }
+
+  .contacts__email-item {
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 12px;
+      right: 5px;
+
+      width: 32px;
+      height: 26px;
+
+      background: url("../img/icon-mail.svg");
+      background-repeat: no-repeat;
+
+      opacity: 0.2;
+    }
   }
 
   .contacts__phone-number,
   .contacts__email-address {
-    width: 700px;
+    width: 683px;
   }
 }

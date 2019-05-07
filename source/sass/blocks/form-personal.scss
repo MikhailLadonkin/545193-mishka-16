@@ -1,9 +1,9 @@
 .info__personal {
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .info__personal-heading {
-  margin-bottom: 33px;
+  margin-bottom: 19px;
 }
 
 .info__personal-item--name {
@@ -12,10 +12,19 @@
   line-height: 18px;
 }
 
+.info__personal-item--field {
+  margin-top: -10px;
+  margin-bottom: 7px;
+}
+
+.input__field--surname {
+  margin-bottom: 11px;
+}
+
 @media (min-width: $tablet-width) {
   .personal__wrapper {
     display: flex;
-    padding-top: 70px;
+    padding-top: 44px;
   }
 
   .info__personal-heading {
@@ -23,15 +32,21 @@
   }
 
   .info__personal-list {
-    margin-top: -20px;
+    margin-top: -10px;
+
+    font-size: 19px;
+    line-height: 18px;
   }
 
   .info__personal-item {
-    margin-bottom: 60px;
+    margin-bottom: 21px;
   }
 
   .info__personal-item--name {
-    margin-right: 25px;
+    margin-right: 22px;
+
+    font-size: 19px;
+    line-height: 18px;
   }
 
   .input__field--name {
@@ -57,6 +72,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .personal__wrapper {
+    margin-left: 61px;
+  }
+
   .info__personal-heading {
     margin-right: 75px;
   }

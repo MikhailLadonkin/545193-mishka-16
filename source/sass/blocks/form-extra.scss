@@ -1,16 +1,16 @@
 .extra__heading {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
 .extra__wishes {
-  width: 243px;
+  width: 240px;
   padding-top: 18px;
   padding-left: 17px;
   border: 1px solid #323232;
 }
 
 .extra__info {
-  margin-bottom: 31px;
+  margin-bottom: 26px;
 }
 
 .extra__info-text {
@@ -25,7 +25,7 @@
 }
 
 .form__submit--link {
-  padding: 20px 43px;
+  padding: 15px 43px 14px 44px;
 
   font-size: 17px;
   line-height: 16px;
@@ -36,15 +36,24 @@
 @media (min-width: $tablet-width) {
   .extra__wrapper {
     display: flex;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
   }
 
   .extra__heading {
     margin-right: 128px;
   }
 
+  .extra__item {
+    margin-top: -18px;
+  }
+
   .extra__wishes {
-    width: 501px;
+    width: 480px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+
+    font-size: 19px;
+    line-height: 18px;
   }
 
   .extra__user {
@@ -55,30 +64,42 @@
     order: 1;
   }
 
+  .extra__info-text {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
   .form__submit {
-    margin-right: 155px;
+    margin-right: 140px;
+    margin-bottom: 58px;
   }
 
   .form__submit--link {
-    padding: 20px 32px;
+    padding: 15px 29px;
   }
 }
 
 
 @media (min-width: $desktop-width) {
+  .extra__wrapper {
+    margin-bottom: 42px;
+  }
+
   .extra__heading {
     margin-right: 74px;
+    margin-left: 63px;
   }
 
   .extra__wishes {
-    width: 700px;
+    width: 678px;
   }
 
   .extra__user {
-    margin-left: 105px;
+    margin-left: 176px;
   }
 
   .form__submit {
-    margin-right: 214px;
+    margin-right: 172px;
+    margin-bottom: 56px;
   }
 }
