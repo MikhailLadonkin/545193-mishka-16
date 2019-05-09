@@ -1,13 +1,13 @@
 .contacts {
-  margin-bottom: 42px;
+  margin-bottom: 37px;
 }
 
 .contacts__heading {
   position: relative;
-  margin-bottom: 42px;
+  margin-bottom: 26px;
 
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 30px;
 
   &::before {
@@ -26,6 +26,14 @@
   }
 }
 
+.contacts__phone-heading {
+  margin-bottom: 8px;
+}
+
+.contacts__email-heading {
+  margin-bottom: 5px;
+}
+
 .contacts__list {
   display: flex;
   flex-direction: row;
@@ -42,15 +50,19 @@
   margin-right: 27px;
 }
 
+.contacts__phone-number .input__field {
+  padding-bottom: 10px;
+}
+
 .contacts__item--email {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 
   &::after {
     content: "";
 
     position: absolute;
-    bottom: -5px;
+    bottom: 2px;
     left: 0;
 
     width: 185px;
@@ -67,9 +79,6 @@
 .map {
   position: relative;
   margin-bottom: 40px;
-}
-
-.map__image {
   margin-left: -30px;
 }
 
@@ -79,8 +88,12 @@
   left: 45%;
 }
 
+.map__item {
+  margin-bottom: 26px;
+}
+
 .map__button--submit {
-  padding: 20px 52px;
+  padding: 15px 53px;
 
   font-weight: bold;
   font-size: 18px;
@@ -91,13 +104,14 @@
 @media (min-width: $tablet-width) {
   .contacts {
     position: relative;
+    margin-bottom: 55px;
 
     &::after {
       content: "";
 
       position: absolute;
-      top: -10px;
-      right: 5px;
+      top: -17px;
+      right: 52px;
 
       width: 47px;
       height: 81px;
@@ -107,11 +121,16 @@
   }
 
   .contacts__heading {
+    margin-bottom: 48px;
+
+    font-size: 43px;
+    line-height: 50px;
+
     &::before {
       content: "";
 
       position: absolute;
-      top: -60px;
+      top: -80px;
       left: -50px;
 
       width: 771px;
@@ -123,8 +142,30 @@
     }
   }
 
+  .contacts__item {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .contacts__item-name {
+    margin-right: 20px;
+  }
+
   .contacts__item--email {
-    margin-right: 55px;
+    margin-right: 50px;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      bottom: 32px;
+      left: 3px;
+
+      width: 200px;
+      height: 1px;
+
+      background-color: #63d1bb;
+    }
   }
 
   .contacts__item--address {
@@ -135,14 +176,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 56px;
+    margin-left: 0;
+  }
+
+  .map__item {
+    margin-right: -100px;
   }
 
   .map__image {
     width: 768px;
     height: 457px;
-    margin-left: -51px;
-    margin-right: -51px;
-    margin-bottom: 55px;
+    margin-bottom: 16px;
+    margin-left: -100px;
+  }
+
+  .map__button--submit {
+    margin-left: 170px;
+    padding: 15px 38px;
   }
 }
 
@@ -150,13 +201,22 @@
   .contacts {
     position: relative;
     margin-left: 173px;
-    margin-bottom: 84px;
+    margin-bottom: 81px;
+
+    &::after {
+      content: none;
+    }
+  }
+
+  .map {
+    display: block;
+    margin-bottom: 104px;
   }
 
   .map__item {
     position: absolute;
-    bottom: -80px;
-    right: 51px;
+    bottom: -54px;
+    right: 150px;
   }
 
   .map__image {
@@ -172,7 +232,7 @@
       content: "";
 
       position: absolute;
-      top: -60px;
+      top: -165px;
       left: -200px;
 
       width: 1050px;
@@ -187,8 +247,8 @@
       content: "";
 
       position: absolute;
-      top: 0;
-      left: -125px;
+      top: -10px;
+      left: -110px;
 
       width: 47px;
       height: 81px;
@@ -203,11 +263,25 @@
     width: 315px;
   }
 
-  .map {
-    display: block;
+  .contacts__item-name {
+    margin-right: 25px;
+  }
+
+  .contacts__item--email {
+    margin-right: 0;
+  }
+
+  .contacts__item--email::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 200px;
+    height: 1px;
+    background-color: #63d1bb;
   }
 
   .map__button--submit {
-    margin-left: 174px;
+    margin-left: 124px;
   }
 }
