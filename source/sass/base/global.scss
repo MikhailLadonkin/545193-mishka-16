@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +20,7 @@ body {
 }
 
 .container {
-  width: 260px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 30px;
@@ -62,7 +69,7 @@ body {
   margin-left: 62px;
 }
 
-.modal-active {
+.modal--active {
   display: block;
 }
 

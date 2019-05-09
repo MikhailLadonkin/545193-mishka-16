@@ -159,7 +159,8 @@
 
 .site-list__icon-search,
 .site-list__icon-cart {
-  padding-right: 25px;
+  margin-left: -5px;
+  margin-right: 25px;
 }
 
 .site-list__link {
@@ -225,11 +226,22 @@
     display: none;
   }
 
-  .page-header__logo,
-  .page-header__logo-link {
+  .page-header__logo {
     position: absolute;
-    left: 50px;
   }
+
+  .page-header__logo-link{
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+
+
 
   .page-header__logo-image {
     width: 112px;
@@ -257,13 +269,12 @@
   .main-nav__special {
     display: block;
     z-index: 1;
-    margin-right: 21px;
   }
 
   .main-nav__user-navigation {
     order: unset;
 
-    width: 350px;
+    width: 670px;
     display: flex;
     flex-wrap: wrap;
     padding-left: 320px;
@@ -284,7 +295,8 @@
   }
 
   .site-list__icon-search {
-    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .visually-hidden__search {
@@ -315,6 +327,7 @@
 
   .site-list__icon-cart {
     margin-right: 31px;
+    margin-left: 0;
     padding-right: 0;
   }
 
@@ -329,7 +342,7 @@
   }
 
   .main-nav__site-navigation-list {
-    width: 334px;
+    width: 368px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -344,7 +357,7 @@
   }
 
   .site-list__item--knitting {
-    margin-right: 21px;
+    margin-right: 54px;
     padding-left: 17px;
     padding-top: 0;
 
@@ -427,13 +440,13 @@
     padding: 0;
     padding-top: 31px;
     padding-bottom: 20px;
+    margin-right: 20px;
   }
 
   .main-nav__user-navigation {
     order: 1;
 
     display: flex;
-    padding-right: 22px;
     width: 350px;
     padding-left: 0;
     margin: 0;

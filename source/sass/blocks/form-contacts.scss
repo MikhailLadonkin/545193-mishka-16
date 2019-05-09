@@ -94,18 +94,16 @@
 @media (min-width: $desktop-width) {
   .form__contacts {
     background-color: #f1f1f1;
-    margin-right: -225px;
-    margin-left: -114px;
   }
 
   .contacts__phone-heading {
     margin-right: 77px;
-    margin-left: 59px;
+    margin-left: 64px;
   }
 
   .contacts__email-heading {
-    margin-right: 55px;
-    margin-left: 55px;
+    margin-right: 56px;
+    margin-left: 60px;
   }
 
   .contacts__phone-item {
@@ -146,6 +144,6 @@
 
   .contacts__phone-number,
   .contacts__email-address {
-    width: 683px;
+    width: 700px;
   }
 }
