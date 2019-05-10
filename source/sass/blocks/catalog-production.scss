@@ -65,6 +65,8 @@
 }
 
 .production__video--play {
+  background: transparent;
+  border: none;
   position: absolute;
 
   top: 31px;
@@ -72,6 +74,15 @@
 
   width: 102px;
   height: 78px;
+
+  &:hover {
+    transform:scale(1.2,1.2);
+  }
+
+  &:active {
+    transform:scale(0.8,0.8);
+    opacity: 0.3;
+  }
 }
 
 
@@ -108,7 +119,9 @@
     margin-top: 0;
     margin-left: 105px;
     margin-bottom: 32px;
+  }
 
+  .production__heading-text {
     font-size: 20px;
     line-height: 24px;
   }

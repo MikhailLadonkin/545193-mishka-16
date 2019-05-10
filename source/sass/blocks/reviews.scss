@@ -53,6 +53,14 @@
 
   border: 1px solid #ececec;
   background: transparent;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .reviews__button--forward {

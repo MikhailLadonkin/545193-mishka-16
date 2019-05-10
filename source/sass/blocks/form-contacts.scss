@@ -10,6 +10,65 @@
   margin-bottom: 10px;
 }
 
+.contacts__phone-item,
+.contacts__email {
+  position: relative;
+}
+
+.contacts__phone-number-icon,
+.contacts__email-address-icon {
+  position: absolute;
+  opacity: 0.2;
+}
+
+.contacts__phone-number-icon {
+  top: 7px;
+  right: 8px;
+
+  width: 25px;
+  height: 24px;
+}
+
+.contacts__email-address-icon {
+  top: 30px;
+  right: 33px;
+
+  width: 33px;
+  height: 33px;
+}
+
+.contacts__phone-item:hover .contacts__phone-number-icon path {
+  fill: #62d1ba;
+}
+
+.contacts__phone-item:hover .contacts__phone-number-icon {
+  opacity: 1;
+}
+
+.contacts__phone-item:focus .contacts__phone-number-icon path {
+  fill: #62d1ba;
+}
+
+.contacts__phone-item:focus .contacts__phone-number-icon {
+  opacity: 1;
+}
+
+.contacts__email:hover .contacts__email-address-icon path {
+  fill: #62d1ba;
+}
+
+.contacts__email:hover .contacts__email-address-icon {
+  opacity: 1;
+}
+
+.contacts__email:focus .contacts__email-address-icon path {
+  fill: #62d1ba;
+}
+
+.contacts__email:focus .contacts__email-address-icon {
+  opacity: 1;
+}
+
 @media (min-width: $tablet-width) {
   .form__contacts {
     background-color: #f1f1f1;
@@ -37,29 +96,13 @@
 
   .contacts__phone-number,
   .contacts__email-address {
-    width: 482px;
+    width: 500px;
     background: #f1f1f1;
   }
 
   .contacts__phone-item {
     position: relative;
     margin-top: -18px;
-
-    &::after {
-      content: "";
-
-      position: absolute;
-      top: 10px;
-      right: 25px;
-
-      width: 25px;
-      height: 24px;
-
-      background: url("../img/icon-phone.svg");
-      background-repeat: no-repeat;
-
-      opacity: 0.2;
-    }
   }
 
   .contacts__email-item {
@@ -68,22 +111,22 @@
 
     font-size: 19px;
     line-height: 18px;
+  }
 
-    &::after {
-      content: "";
+  .contacts__phone-number-icon {
+    top: 9px;
+    right: 28px;
 
-      position: absolute;
-      top: 12px;
-      right: 20px;
+    width: 25px;
+    height: 24px;
+  }
 
-      width: 32px;
-      height: 26px;
+  .contacts__email-address-icon {
+    top: 12px;
+    right: 20px;
 
-      background: url("../img/icon-mail.svg");
-      background-repeat: no-repeat;
-
-      opacity: 0.2;
-    }
+    width: 33px;
+    height: 33px;
   }
 
   .input__field {
@@ -106,44 +149,24 @@
     margin-left: 60px;
   }
 
-  .contacts__phone-item {
-    &::after {
-      content: "";
-
-      position: absolute;
-      top: 10px;
-      right: 10px;
-
-      width: 25px;
-      height: 24px;
-
-      background: url("../img/icon-phone.svg");
-      background-repeat: no-repeat;
-
-      opacity: 0.2;
-    }
-  }
-
-  .contacts__email-item {
-    &::after {
-      content: "";
-
-      position: absolute;
-      top: 12px;
-      right: 5px;
-
-      width: 32px;
-      height: 26px;
-
-      background: url("../img/icon-mail.svg");
-      background-repeat: no-repeat;
-
-      opacity: 0.2;
-    }
-  }
-
   .contacts__phone-number,
   .contacts__email-address {
     width: 700px;
+  }
+
+  .contacts__phone-number-icon {
+    top: 10px;
+    right: 9px;
+
+    width: 25px;
+    height: 24px;
+  }
+
+  .contacts__email-address-icon {
+    top: 12px;
+    right: 5px;
+
+    width: 33px;
+    height: 33px;
   }
 }

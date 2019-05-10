@@ -7,6 +7,14 @@
   padding-top: 18px;
   padding-left: 17px;
   border: 1px solid #323232;
+
+  &:hover {
+    border: 1px solid #62d1ba;
+  }
+
+  &:focus {
+    border: 1px solid #62d1ba;
+  }
 }
 
 .extra__info {

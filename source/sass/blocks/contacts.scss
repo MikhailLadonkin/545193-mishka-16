@@ -69,6 +69,22 @@
     height: 2px;
 
     background-color: #63d1bb;
+
+    &:active {
+      color: rgba(70, 193, 174, 0.3);
+    }
+  }
+
+  &:hover {
+    color: #46c1ae;
+  }
+
+  &:active {
+    color: rgba(70, 193, 174, 0.3);
+  }
+
+  &:active::after {
+    background-color: rgba(70, 193, 174, 0.3);
   }
 }
 
