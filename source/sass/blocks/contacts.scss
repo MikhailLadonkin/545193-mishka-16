@@ -107,7 +107,7 @@
 
 .map__item {
   margin-bottom: 26px;
-  margin-left: -30px
+  margin-left: -30px;
 }
 
 .map__image {
@@ -216,8 +216,7 @@
     margin-bottom: 16px;
     margin-left: -100px;
 
-    @media (min-resolution: @retina-dpi),
-    (min-resolution: @retina-dppx) {
+    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
       background-image: url("img/map-tablet@2x.jpg");
       background-size: 768px auto;
     }

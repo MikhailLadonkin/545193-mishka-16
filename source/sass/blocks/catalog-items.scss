@@ -30,7 +30,7 @@
   font-weight: bold;
 }
 
-.catalog-item__title a{
+.catalog-item__title a {
   text-decoration: none;
   color: #323232;
 
@@ -41,7 +41,6 @@
   &:focus {
     color: rgba(0, 0, 0, 0.3);
   }
-
 }
 
 .catalog-item__details {
