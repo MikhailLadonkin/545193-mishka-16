@@ -72,11 +72,8 @@
 }
 
 @media (min-width: $desktop-width) {
-  .personal__wrapper {
-    margin-left: 61px;
-  }
-
   .info__personal-heading {
+    padding-left: 62px;
     margin-right: 75px;
   }
 
