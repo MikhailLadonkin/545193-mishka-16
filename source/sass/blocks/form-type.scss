@@ -34,6 +34,14 @@
     border: 2px solid black;
     border-radius: 50%;
   }
+
+  &:hover::before {
+    border: 2px solid #62d1ba;
+  }
+
+  &:active::before {
+    border: 2px solid rgba(68, 68, 68, 0.3);
+  }
 }
 
 .filters-type__radio input[type="radio"]:checked + .radio-indicator::after {
@@ -103,10 +111,10 @@
 
 @media (min-width: $desktop-width) {
   .form__heading--type {
-    margin-right: 156px;
+    margin-right: 158px;
   }
 
   .type__wrapper {
-    margin-left: 62px;
+    padding-left: 112px;
   }
 }

@@ -66,6 +66,14 @@ body {
 
   border: none;
   border-bottom: 2px solid #323232;
+
+  &:hover {
+    border-bottom: 2px solid #62d1ba;
+  }
+
+  &:active {
+    border-bottom: 2px solid #62d1ba;
+  }
 }
 
 .filters__list {
@@ -74,6 +82,22 @@ body {
 
 .modal--active {
   display: block;
+}
+
+.button-link {
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+    border: 1px solid #444444;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+fieldset h3 {
+  margin-top: 0;
 }
 
 

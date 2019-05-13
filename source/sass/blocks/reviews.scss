@@ -48,23 +48,67 @@
 }
 
 .reviews__button {
-  padding: 13px 42px 13px 38px;
-  margin-bottom: 38px;
+  padding: 26px 55px 26px 73px;
+  margin-bottom: 42px;
 
-  border: 1px solid #ececec;
   background: transparent;
+  border: 1px solid #ececec;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.reviews__button--back {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    width: 50px;
+    height: 26px;
+
+    top: 14px;
+    left: 38px;
+
+    background: url("../img/icon-left-arrow.svg");
+    background-repeat: no-repeat;
+  }
 }
 
 .reviews__button--forward {
-  border-left: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    width: 50px;
+    height: 26px;
+
+    top: 14px;
+    left: 38px;
+
+    background: url("../img/icon-right-arrow.svg");
+    background-repeat: no-repeat;
+  }
 }
 
 .reviews__submit--button {
   padding: 15px 81px;
+
+  text-decoration: none;
+  color: #444444;
 }
 
 @media (min-width: $tablet-width) {
   .reviews {
+
     background: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
 
@@ -79,15 +123,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
+    width: 768px;
+    margin: 0 auto;
     padding-top: 76px;
     margin-top: -30px;
-    margin-bottom: 155px;
+    margin-bottom: 158px;
   }
 
   .reviews__title {
     order: 0;
-    margin-right: 322px;
+    margin-right: 318px;
   }
 
   .reviews__title--text {
@@ -129,12 +174,14 @@
   .reviews__buttons {
     order: 3;
     margin-left: auto;
-    margin-top: -68px;
+    margin-right: 13px;
+    margin-top: -70px;
     margin-bottom: 0;
   }
 
   .reviews__button {
-    padding: 13px 20px 13px 20px;
+    padding: 26px 44px 26px 48px;
+
     border: none;
   }
 }
@@ -143,6 +190,8 @@
   .reviews {
     margin-left: 50px;
     padding-bottom: 51px;
+    margin-top: -30px;
+    margin-bottom: 30px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/review@2x.jpg");
@@ -155,14 +204,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
-    margin-left: 123px;
+    width: 1150px;
+    margin: 0 auto;
+    padding-left: 172px;
     padding-top: 76px;
     margin-bottom: 196px;
   }
 
   .reviews__title {
-    margin-right: 492px;
+    margin-right: 489px;
   }
 
   .reviews__title--text {
@@ -172,7 +222,8 @@
   }
 
   .reviews__buttons {
-    margin-right: -1px;
+    margin-right: 0;
+    margin-left: 683px;
   }
 
   .reviews__item-text {
