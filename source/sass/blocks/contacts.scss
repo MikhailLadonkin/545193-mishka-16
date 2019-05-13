@@ -44,10 +44,12 @@
   font-size: 15px;
   line-height: 30px;
   color: #444444;
+  font-weight: normal;
 }
 
 .contacts__item-name {
   margin-right: 27px;
+  font-weight: normal;
 }
 
 .contacts__phone-number .input__field {
@@ -57,6 +59,7 @@
 .contacts__item--email {
   position: relative;
   margin-bottom: 28px;
+  font-weight: normal;
 
   &::after {
     content: "";
@@ -90,6 +93,7 @@
 
 .contacts__item--address {
   width: 170px;
+  font-weight: normal;
 }
 
 .map {
@@ -173,11 +177,11 @@
   }
 
   .contacts__item-name {
-    margin-right: 20px;
+    margin-right: 25px;
   }
 
   .contacts__item--email {
-    margin-right: 50px;
+    margin-right: 67px;
 
     &::after {
       content: "";
@@ -219,7 +223,7 @@
   }
 
   .map__button--submit {
-    margin-left: 170px;
+    margin-left: 220px;
     padding: 15px 38px;
   }
 }
@@ -268,7 +272,7 @@
       top: -165px;
       left: -200px;
 
-      width: 1050px;
+      width: 1077px;
       height: 23px;
 
       background: url("../img/bg-zigzag-line.svg");
@@ -315,6 +319,6 @@
   }
 
   .map__button--submit {
-    margin-left: 124px;
+    margin-left: 176px;
   }
 }
