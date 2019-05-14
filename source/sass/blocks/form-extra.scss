@@ -24,12 +24,14 @@
 .extra__info-text {
   font-size: 14px;
   line-height: 16px;
+  font-weight: normal;
 
   color: #444444;
 }
 
 .form__submit {
   margin-bottom: 55px;
+  font-weight: bold;
 }
 
 .form__submit--link {
@@ -44,7 +46,7 @@
 @media (min-width: $tablet-width) {
   .extra__wrapper {
     display: flex;
-    margin-bottom: 46px;
+    margin-bottom: 42px;
   }
 
   .extra__heading {
@@ -66,6 +68,7 @@
 
   .extra__user {
     display: flex;
+    justify-content: space-between;
   }
 
   .extra__info {
@@ -78,8 +81,7 @@
   }
 
   .form__submit {
-    margin-right: 131px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
   }
 
   .form__submit--link {
@@ -90,7 +92,7 @@
 
 @media (min-width: $desktop-width) {
   .extra__wrapper {
-    margin-bottom: 42px;
+    margin-bottom: 38px;
   }
 
   .extra__heading {
@@ -103,11 +105,11 @@
   }
 
   .extra__user {
-    padding-left: 226px;
+    padding-left: 38px;
+    width: 775px;
   }
 
   .form__submit {
-    margin-right: 172px;
     margin-bottom: 56px;
   }
 }
