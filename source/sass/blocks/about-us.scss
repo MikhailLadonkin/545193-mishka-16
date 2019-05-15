@@ -46,6 +46,8 @@
   position: absolute;
   top: -54px;
   left: 8px;
+
+  fill: #63d1bb;
 }
 
 .about-us__item-icon--money {
@@ -71,12 +73,6 @@
   top: -52px;
   left: 3px;
 }
-
-
-.about-us__item-icon path {
-  fill: #63d1bb;
-}
-
 
 @media (min-width: $tablet-width) {
   .about-us__title {

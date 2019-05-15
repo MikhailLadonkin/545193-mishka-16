@@ -161,6 +161,8 @@
 .site-list__icon-cart {
   margin-left: -5px;
   margin-right: 25px;
+
+  fill: rgba(35, 31, 32, 0.2);
 }
 
 .site-list__link {
@@ -183,18 +185,13 @@
   margin: 0;
 }
 
-.site-list__icon-search path,
-.site-list__icon-cart path {
-  fill: rgba(35, 31, 32, 0.2);
-}
-
-.site-list__item--search:hover .site-list__icon-search path,
-.site-list__item--cart:hover .site-list__icon-cart path {
+.site-list__item--search:hover .site-list__icon-search,
+.site-list__item--cart:hover .site-list__icon-cart {
   fill: rgba(99, 209, 187, 1);
 }
 
-.site-list__item--search:active .site-list__icon-search path,
-.site-list__item--cart:active .site-list__icon-cart path {
+.site-list__item--search:active .site-list__icon-search,
+.site-list__item--cart:active .site-list__icon-cart {
   fill: rgba(99, 209, 187, 0.3);
 }
 

@@ -37,36 +37,28 @@
   height: 33px;
 }
 
-.contacts__phone-item:hover .contacts__phone-number-icon path {
-  fill: #62d1ba;
-}
-
 .contacts__phone-item:hover .contacts__phone-number-icon {
   opacity: 1;
-}
 
-.contacts__phone-item:focus .contacts__phone-number-icon path {
   fill: #62d1ba;
 }
 
 .contacts__phone-item:focus .contacts__phone-number-icon {
   opacity: 1;
-}
 
-.contacts__email:hover .contacts__email-address-icon path {
   fill: #62d1ba;
 }
 
 .contacts__email:hover .contacts__email-address-icon {
   opacity: 1;
-}
 
-.contacts__email:focus .contacts__email-address-icon path {
   fill: #62d1ba;
 }
 
 .contacts__email:focus .contacts__email-address-icon {
   opacity: 1;
+
+  fill: #62d1ba;
 }
 
 @media (min-width: $tablet-width) {
