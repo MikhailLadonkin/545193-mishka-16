@@ -1,5 +1,8 @@
 var button = document.querySelector(".js-button");
 var popup = document.querySelector(".modal");
+var header = document.querySelector(".header");
+var main = document.querySelector(".main");
+var footer = document.querySelector(".footer");
 
 var mainNav = document.querySelector('.main-nav');
 var navButtonOpened = document.querySelector('.main-nav--opened');
@@ -11,6 +14,9 @@ var mainNavWrapper = document.querySelector('.main-nav__wrapper');
 
 button.addEventListener("click", function(evt){
   evt.preventDefault();
+  header.classList.add("filter");
+  main.classList.add("filter");
+  footer.classList.add("filter");
   popup.classList.add("modal--active");
   popup.classList.remove("modal-hidden");
 });

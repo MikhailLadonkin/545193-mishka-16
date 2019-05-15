@@ -37,7 +37,7 @@
   height: 33px;
 }
 
-.contacts__phone-item:hover .contacts__phone-number-icon path {
+.contacts__phone-item:hover .contacts__phone-number-icon {
   fill: #62d1ba;
 }
 
@@ -45,7 +45,7 @@
   opacity: 1;
 }
 
-.contacts__phone-item:focus .contacts__phone-number-icon path {
+.contacts__phone-item:focus .contacts__phone-number-icon {
   fill: #62d1ba;
 }
 
@@ -53,7 +53,7 @@
   opacity: 1;
 }
 
-.contacts__email:hover .contacts__email-address-icon path {
+.contacts__email:hover .contacts__email-address-icon {
   fill: #62d1ba;
 }
 
@@ -61,7 +61,7 @@
   opacity: 1;
 }
 
-.contacts__email:focus .contacts__email-address-icon path {
+.contacts__email:focus .contacts__email-address-icon {
   fill: #62d1ba;
 }
 
