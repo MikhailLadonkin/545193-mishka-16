@@ -1,4 +1,4 @@
-.intro__heading {
+.intro {
   background-image: url("../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0%;
@@ -45,8 +45,9 @@
   background-color: $interior-color;
 
   &:hover {
-    margin-top: -5px;
-    padding-top: 25px;
+    padding: 5px 185px 25px 29px;
+
+    box-shadow: 0 -5px 0px 0px #63d1bb;
   }
 
   &:active {
@@ -76,8 +77,9 @@
   background-color: $toys-color;
 
   &:hover {
-    margin-top: -5px;
-    padding-top: 25px;
+    padding: 10px 202px 30px 29px;
+
+    box-shadow: 0 -5px 0px 0px #56c3b2;
   }
 
   &::after {
@@ -161,6 +163,12 @@
     font-weight: bold;
     line-height: 30px;
 
+    &:hover {
+    padding: 8px 187px 34px 36px;
+
+    box-shadow: 0 -5px 0px 0px #63d1bb;
+    }
+
     &::after {
       content: "";
 
@@ -185,6 +193,12 @@
     font-weight: bold;
     line-height: 30px;
 
+    &:hover {
+    padding: 8px 204px 34px 36px;
+
+    box-shadow: 0 -5px 0px 0px #56c3b2;
+    }
+
     &::after {
       content: "";
 
@@ -204,10 +218,11 @@
 
 @media (min-width: $desktop-width) {
   .intro {
+    margin-top: -48px;
 
     background-image: url("../img/hero-desktop@1x.jpg");
     background-repeat: no-repeat;
-    margin-top: -48px;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/hero-desktop@2x.jpg");
@@ -219,8 +234,9 @@
   .intro__heading .intro__heading-text {
     padding-top: 224px;
     padding-bottom: 360px;
-    width: 604px;
+    width: 630px;
     margin-top: -70px;
+
     font-weight: bold;
     font-size: 53px;
     line-height: 57px;
@@ -233,6 +249,12 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
+
+    &:hover {
+    padding: 7px 377px 34px 36px;
+
+    box-shadow: 0 -5px 0px 0px #63d1bb;
+    }
   }
 
   .intro__link--toys {
@@ -242,6 +264,12 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
+
+    &:hover {
+    padding: 7px 395px 34px 36px;
+
+    box-shadow: 0 -5px 0px 0px #56c3b2;
+    }
   }
 
   .intro-link {
