@@ -47,7 +47,7 @@
   &:hover {
     padding: 5px 185px 25px 29px;
 
-    box-shadow: 0 -5px 0px 0px #63d1bb;
+    box-shadow: 0 -5px 0 0 #63d1bb;
   }
 
   &:active {
@@ -79,7 +79,7 @@
   &:hover {
     padding: 10px 202px 30px 29px;
 
-    box-shadow: 0 -5px 0px 0px #56c3b2;
+    box-shadow: 0 -5px 0 0 #56c3b2;
   }
 
   &::after {
@@ -164,9 +164,9 @@
     line-height: 30px;
 
     &:hover {
-    padding: 8px 187px 34px 36px;
+      padding: 8px 187px 34px 36px;
 
-    box-shadow: 0 -5px 0px 0px #63d1bb;
+      box-shadow: 0 -5px 0 0 #63d1bb;
     }
 
     &::after {
@@ -194,9 +194,9 @@
     line-height: 30px;
 
     &:hover {
-    padding: 8px 204px 34px 36px;
+      padding: 8px 204px 34px 36px;
 
-    box-shadow: 0 -5px 0px 0px #56c3b2;
+      box-shadow: 0 -5px 0 0 #56c3b2;
     }
 
     &::after {
@@ -251,9 +251,9 @@
     line-height: 30px;
 
     &:hover {
-    padding: 7px 377px 34px 36px;
+      padding: 7px 377px 34px 36px;
 
-    box-shadow: 0 -5px 0px 0px #63d1bb;
+      box-shadow: 0 -5px 0 0 #63d1bb;
     }
   }
 
@@ -266,9 +266,9 @@
     line-height: 30px;
 
     &:hover {
-    padding: 7px 395px 34px 36px;
+      padding: 7px 395px 34px 36px;
 
-    box-shadow: 0 -5px 0px 0px #56c3b2;
+      box-shadow: 0 -5px 0 0 #56c3b2;
     }
   }
 
