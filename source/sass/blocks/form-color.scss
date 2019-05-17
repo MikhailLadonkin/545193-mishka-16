@@ -67,7 +67,7 @@
   }
 
   .form__heading--color {
-    margin-right: 200px;
+    margin-right: 202px;
   }
 
   .filters__list--color {
@@ -81,6 +81,18 @@
     margin-top: 0;
     margin-bottom: 58px;
     width: 200px;
+
+    &:nth-child(2) {
+      margin-left: -5px;
+    }
+
+    &:nth-child(6) {
+      margin-left: 19px;
+    }
+
+    &:nth-child(2n) {
+      text-align: center;
+    }
   }
 
   .checkbox-indicator {
@@ -115,5 +127,22 @@
   .form__heading--color {
     padding-left: 56px;
     margin-right: 153px;
+
+  }
+
+  .filters-color {
+    width: 264px;
+
+    &:nth-child(2) {
+      margin-left: 0;
+    }
+
+    &:nth-child(6) {
+      margin-left: 0;
+    }
+
+    &:nth-child(2n) {
+      text-align: left;
+    }
   }
 }
