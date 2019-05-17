@@ -80,19 +80,7 @@
   .filters-color {
     margin-top: 0;
     margin-bottom: 58px;
-
-    &:nth-child(2) {
-      margin-left: 200px;
-    }
-
-    &:nth-child(4) {
-      margin-left: 157px;
-      margin-right: 4px;
-    }
-
-    &:nth-child(6) {
-      margin-left: 181px;
-    }
+    width: 200px;
   }
 
   .checkbox-indicator {
@@ -127,31 +115,5 @@
   .form__heading--color {
     padding-left: 56px;
     margin-right: 153px;
-  }
-
-  .filters-color {
-    &:nth-child(2) {
-      margin-left: 198px;
-      margin-right: 200px;
-    }
-
-    &:nth-child(5) {
-      margin-left: 187px;
-      margin-right: 180px;
-    }
-
-    &:nth-child(4) {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    &:nth-child(3) {
-      margin-right: 100px;
-    }
-
-    &:nth-child(6) {
-      margin-right: 96px;
-      margin-left: 0;
-    }
   }
 }

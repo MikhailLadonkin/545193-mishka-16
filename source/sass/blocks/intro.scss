@@ -1,23 +1,23 @@
 .intro {
   background-image: url("../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background-position: bottom;
   background-size: contain;
-  background-color: #eaeaea;
+  background-color: #f5f5f5;
 
   border-top: 1px solid #ececec;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/hero-mobile@2x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: bottom;
     background-size: contain;
   }
 }
 
 .intro__heading-text {
   margin: 0;
-  padding: 76px 0 125px 0;
+  padding: 76px 0 42px 0;
 
   font-weight: bold;
   font-size: 27px;
@@ -48,8 +48,6 @@
   background-color: $interior-color;
 
   &:hover {
-    padding: 5px 185px 25px 29px;
-
     box-shadow: 0 -5px 0 0 #63d1bb;
   }
 
@@ -73,7 +71,6 @@
   }
 
   &:hover::after {
-    top: 7px;
     opacity: 0.7;
   }
 
@@ -89,8 +86,6 @@
   background-color: $toys-color;
 
   &:hover {
-    padding: 10px 202px 30px 29px;
-
     box-shadow: 0 -5px 0 0 #56c3b2;
   }
 
@@ -114,7 +109,6 @@
   }
 
   &:hover::after {
-    top: 6px;
     opacity: 0.7;
   }
 
@@ -134,14 +128,14 @@
 
     background-image: url("../img/hero-tablet@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: bottom;
     background-size: contain;
-    background-color: #eaeaea;
+    background-color: #f5f5f5;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/hero-tablet@2x.jpg");
       background-repeat: no-repeat;
-      background-position: 50% 0%;
+      background-position: bottom;
       background-size: contain;
     }
 
@@ -164,7 +158,7 @@
     margin-top: -4px;
     padding-top: 161px;
     width: 494px;
-    padding-bottom: 371px;
+    padding-bottom: 120px;
     font-weight: bold;
     font-size: 43px;
     line-height: 50px;
@@ -192,8 +186,6 @@
     line-height: 30px;
 
     &:hover {
-      padding: 8px 187px 34px 36px;
-
       box-shadow: 0 -5px 0 0 #63d1bb;
     }
 
@@ -222,8 +214,6 @@
     line-height: 30px;
 
     &:hover {
-      padding: 8px 204px 34px 36px;
-
       box-shadow: 0 -5px 0 0 #56c3b2;
     }
 
@@ -251,7 +241,7 @@
     background-image: url("../img/hero-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #eaeaea;
+    background-color: #f5f5f5;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/hero-desktop@2x.jpg");
@@ -280,8 +270,6 @@
     line-height: 30px;
 
     &:hover {
-      padding: 7px 377px 34px 36px;
-
       box-shadow: 0 -5px 0 0 #63d1bb;
     }
   }
@@ -295,14 +283,16 @@
     line-height: 30px;
 
     &:hover {
-      padding: 7px 395px 34px 36px;
-
       box-shadow: 0 -5px 0 0 #56c3b2;
     }
   }
 
   .intro-link {
     width: 150px;
+  }
+
+  .intro__link:hover span {
+    margin-top: -5px;
   }
 
   .intro__links {
