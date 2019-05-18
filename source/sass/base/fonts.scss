@@ -1,11 +1,17 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/opensans.woff") format("woff");
+
   font-weight: normal;
+  font-display: swap;
+
+  src: url("../fonts/opensans.woff") format("woff");
 }
 
 @font-face {
   font-family: "OpenSans-bold";
-  src: url("../fonts/opensansbold.woff") format("woff");
+
   font-weight: bold;
+  font-display: swap;
+
+  src: url("../fonts/opensansbold.woff") format("woff");
 }

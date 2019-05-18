@@ -67,7 +67,7 @@
   }
 
   .form__heading--color {
-    margin-right: 200px;
+    margin-right: 202px;
   }
 
   .filters__list--color {
@@ -80,18 +80,18 @@
   .filters-color {
     margin-top: 0;
     margin-bottom: 58px;
+    width: 200px;
 
     &:nth-child(2) {
-      margin-left: 200px;
-    }
-
-    &:nth-child(4) {
-      margin-left: 157px;
-      margin-right: 4px;
+      margin-left: -5px;
     }
 
     &:nth-child(6) {
-      margin-left: 181px;
+      margin-left: 19px;
+    }
+
+    &:nth-child(2n) {
+      text-align: center;
     }
   }
 
@@ -130,28 +130,18 @@
   }
 
   .filters-color {
+    width: 264px;
+
     &:nth-child(2) {
-      margin-left: 198px;
-      margin-right: 200px;
-    }
-
-    &:nth-child(5) {
-      margin-left: 187px;
-      margin-right: 180px;
-    }
-
-    &:nth-child(4) {
       margin-left: 0;
-      margin-right: 0;
-    }
-
-    &:nth-child(3) {
-      margin-right: 100px;
     }
 
     &:nth-child(6) {
-      margin-right: 96px;
       margin-left: 0;
+    }
+
+    &:nth-child(2n) {
+      text-align: left;
     }
   }
 }
