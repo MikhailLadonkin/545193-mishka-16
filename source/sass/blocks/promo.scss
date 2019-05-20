@@ -100,6 +100,8 @@
   font-size: 17px;
   line-height: 20px;
   font-weight: bold;
+
+  border: 2px solid #444444;
 }
 
 @media (min-width: $tablet-width) {
@@ -209,9 +211,9 @@
   }
 
   .promo__info {
-    width: 645px;
+    width: 655px;
     margin-left: 45px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 
   .promo__item-name {
@@ -223,7 +225,7 @@
   }
 
   .promo__header {
-    width: 515px;
+    width: 530px;
 
     font-size: 53px;
     line-height: 57px;
@@ -248,7 +250,7 @@
   }
 
   .promo__table {
-    margin-bottom: 114px;
+    margin-bottom: 112px;
   }
 
   .promo__button {

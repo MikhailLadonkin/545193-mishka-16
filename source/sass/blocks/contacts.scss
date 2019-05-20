@@ -122,9 +122,12 @@
 .map__button--submit {
   padding: 15px 53px;
 
+
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
+  color: #444444;
 }
 
 
@@ -224,6 +227,8 @@
   .map__button--submit {
     margin-left: 220px;
     padding: 15px 38px;
+
+    border: 2px solid #444444;
   }
 }
 
@@ -233,7 +238,7 @@
     width: 1150px;
     margin: 0 auto;
     padding-left: 223px;
-    margin-bottom: 81px;
+    margin-bottom: 88px;
 
     &::after {
       content: none;
@@ -244,7 +249,7 @@
     display: block;
     width: 1150px;
     margin: 0 auto;
-    margin-bottom: 104px;
+    margin-bottom: 113px;
   }
 
   .map__item {
