@@ -4,16 +4,12 @@
 }
 
 .catalog-item {
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 
   border: 1px solid #ececec;
 }
 
 .catalog-item__image {
-  margin-bottom: 16px;
-}
-
-.second-card .catalog-item__image {
   margin-bottom: 12px;
 }
 
@@ -109,7 +105,7 @@
   .catalog-item {
     display: flex;
     flex-direction: row;
-    margin-bottom: 29px;
+    margin-bottom: 53px;
   }
 
   .catalog-item__title {
@@ -139,6 +135,7 @@
     margin-left: 32px;
     margin-right: 32px;
     min-width: 276px;
+    margin-bottom: 0;
   }
 
   .catalog-item__price {
@@ -179,6 +176,7 @@
 
   .catalog-item__image {
     height: 334px;
+    margin-bottom: 0;
   }
 
   .catalog-item__picture {

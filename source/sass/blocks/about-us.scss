@@ -88,9 +88,9 @@
 
       position: absolute;
       top: -67px;
-      left: -50px;
+      left: -60px;
 
-      width: 771px;
+      width: 778px;
       height: 15px;
 
       background: url("../img/bg-zigzag-line.svg");
@@ -107,7 +107,7 @@
   }
 
   .about-us__item {
-    width: 280px;
+    width: 295px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 113px;
@@ -117,7 +117,7 @@
     line-height: 22px;
 
     &:nth-child(2n+1) {
-      margin-right: 55px;
+      margin-right: 40px;
     }
 
     &:nth-child(1) {
@@ -126,7 +126,7 @@
 
     &:nth-child(2) {
       order: 2;
-      margin-right: 55px;
+      margin-right: 40px;
     }
 
     &:nth-child(3) {
@@ -183,6 +183,8 @@
   }
 
   .about-us__item {
+    width: 280px;
+
     &:nth-child(5) {
       width: 295px;
     }

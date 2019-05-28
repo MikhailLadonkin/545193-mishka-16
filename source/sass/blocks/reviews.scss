@@ -34,6 +34,7 @@
   font-size: 17px;
   line-height: 24px;
   font-weight: bold;
+  font-style: normal;
 }
 
 .reviews__item-nickname {
@@ -131,7 +132,7 @@
 
   .reviews__title {
     order: 0;
-    margin-right: 318px;
+    margin-right: 310px;
   }
 
   .reviews__title--text {
@@ -148,7 +149,7 @@
 
   .reviews__submit--button {
     order: 1;
-    padding: 14px 35px 15px 41px;
+    padding: 10px 35px 15px 41px;
 
     border: 2px solid #444444;
   }
@@ -213,7 +214,7 @@
   }
 
   .reviews__title {
-    margin-right: 489px;
+    margin-right: 477px;
   }
 
   .reviews__title--text {
